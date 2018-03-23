@@ -1,0 +1,17 @@
+{% assign t = site.data.lang.[page.lang] %}
+<nav class="nav-mobile">
+    <button class="nav-toggle">
+        <span class="bar-top"></span>
+        <span class="bar-mid"></span>
+        <span class="bar-bot"></span>
+    </button>
+</nav>
+<nav class="nav">
+    <ul>
+        <li><a href="http://2017.scaleconfco.com" onclick="ga('send', 'event', '2017 webpage', 'click', '2018');">{{ t.nav[0] }}</a></li>
+        <li><a href="http://scaleconfco.com" onclick="ga('send', 'event', '2018 webpage', 'click', '2018');">{{ t.nav[1] }}</a></li>
+        <li><a href="mailto:hola@scaleconfco.com?subject=Scaleconfco%E2%80%99s%20sponsorship&body=I%20would%20like%20more%20information%20on%20Scaleconfco%E2%80%99s%20sponsorship." class="sponsorButton" onclick="ga('send', 'event', 'Become a sponsor', 'click', '2018');">{{ t.nav[2] }}</a></li>
+        <li><a href="/" class="nav-lang {% if page.lang == 'en' %}active{% endif %}" onclick="ga('send', 'event', 'EN', 'click', '2018');">EN</a></li>
+        <li><a href="/es/" class="nav-lang {% if page.lang == 'es' %}active{% endif %}" onclick="ga('send', 'event', 'ES', 'click', '2018');">ES</a></li>
+    </ul>
+</nav>

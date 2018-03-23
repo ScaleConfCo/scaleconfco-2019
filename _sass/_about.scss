@@ -1,0 +1,28 @@
+section.about {
+    > div {
+        display: flex;
+        flex: center;
+    }
+    p:first-of-type {
+        padding-bottom: 1rem;
+    }
+    .aboutBlueText {
+        color: $blue-lighter;
+        font-size: 1.5rem;
+        padding-right: 1em;
+        margin-top: 1rem;
+        padding-bottom: 0;
+    }
+}
+
+/*   Responsive Media Queries   */
+@media screen and (max-width: 768px) {
+    section.about {
+        div {
+            display: block;
+        }
+        .aboutBlueText {
+            margin-bottom: 1rem;
+        }
+    }
+}

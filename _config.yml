@@ -1,0 +1,28 @@
+# Site Settings
+title: ScaleConfCo
+email: hola@scaleconfco.com
+description: ""
+baseurl: "/"
+url: "https://2019.scaleconfco.com/"
+twitter_username: scaleconfco
+github_username:  ScaleConfCo
+
+repository: scaleconfco-2019/scaleconfco.github.io
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+collections:
+  speakers:
+    output: true
+    permalink: /speaker/:slug.html
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: speakers
+    values:
+      layout: speaker
+      lang: en

@@ -1,0 +1,13 @@
+{% assign t = site.data.lang.[page.lang] %}
+<section class="welcome">
+    <div>
+        <section class="svg">{% include name.svg %}</section>
+        <p class="dates">{{ t.date }}</p>
+        <a href="https://ti.to/scaleconf-colombia/scaleconfco" class="tickets" target="_blank" onclick="ga('send', 'event', 'Buy your tickets', 'click', '2019');">{{ t.tickets }}</a>
+    </div>
+</section>
+<section class="svg">
+    <svg class="svg-banner" xmlns="http://www.w3.org/2000/svg" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path class="triangle" d="M0 100 L100 100 L100 0 Z"></path>
+    </svg>
+</section>

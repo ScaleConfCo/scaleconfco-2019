@@ -1,0 +1,42 @@
+section.mailingList {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+    div {
+        p {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0.7rem;
+            color: $blue-darkest;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        form {
+            margin-bottom: 2rem;
+            .formEmail {
+                width: 35vw;
+                margin-right: 0.7rem;
+                border: none;
+                border-bottom: 1px solid $blue-darkest;
+                text-align: center;
+            }
+            .formButton {
+                width: 13vw;
+                cursor: pointer;
+                background-color: $blue-lighter;
+                padding: 0.5rem 0.9rem;
+                border-radius: 20px;
+                margin-top: 0.5rem;
+                border-style: none;
+                color: #fff;
+                text-align: center;
+                transition: 0.2s;
+                &:hover {
+                    background-color: $green;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

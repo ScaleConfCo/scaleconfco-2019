@@ -1,0 +1,100 @@
+section.welcome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $purple_dark;
+    margin: 0;
+    > div {
+        color: $white;
+        width: 100%;
+        margin-top: 20vh;
+        svg {
+            font-weight: 800;
+            margin: 0 10%;
+        }
+        p {
+            display: flex;
+            justify-content: center;
+            &.colombia {
+                font-weight: 300;
+                font-size: 4rem;
+                line-height: 4rem;
+                letter-spacing: 1rem;
+                margin-bottom: 2.5rem;
+                color: $white;
+            }
+            &.dates {
+                background-color: $blue-darkest;
+                color: $green;
+                font-size: 1.6rem;
+                padding: 5px 0;
+                margin: 0 35%;
+            }
+        }
+        .tickets {
+            display: flex;
+            justify-content: center;
+            margin: 0 40%;
+            margin-top: 2rem;
+            background-color: $white;
+            border-radius: 20px;
+            color: $blue-darkest;
+            padding: 0.5rem 1.5rem;
+            transition: 0.2s;
+            &:hover {
+                background-color: $blue-lighter;
+                color: $white;
+            }
+        }
+    }
+}
+
+/*   Responsive Media Queries   */
+@media screen and (max-width: 768px) {
+    section.welcome {
+        background-size: cover;
+        background-position: center;
+        padding: 10vh 0 75vh;
+        > div {
+            margin-top: 0;
+            svg {
+                margin: 0 5% 0;
+            }
+            p {
+                &.colombia {
+                    font-size: 3rem;
+                    line-height: 3rem;
+                    letter-spacing: 0.8rem;
+                }
+                &.dates {
+                    text-align: center;
+                    font-size: 1.3rem;
+                    margin: 0 30%;
+                }
+            }
+            .tickets {
+                text-align: center;
+                margin: 2rem 35%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    section.welcome {
+        p.dates {
+            margin: 0 20%;
+        }
+        .tickets {
+            text-align: center;
+            margin: 2rem 30%;
+        }
+    }
+}
+@media screen and (max-width: 400px) {
+    section.welcome {
+        p.colombia {
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+section {
+    &.svg {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    .svg-banner {
+        fill: $white;
+        stroke: $white;
+        position: relative;
+        bottom: 69px;
+    }
+    .svg-speakers {
+        position: relative;
+        top: 10px;
+        .front {
+            fill: $blue-darkest;
+        }
+        .shadow {
+            fill: $blue-lighter;
+        }
+    }
+    .svg-footer {
+        position: relative;
+        top: -1px;
+        background-color: $blue-darkest;
+        .front {
+            fill: $white;
+        }
+        .shadow {
+            fill: $blue-lighter;
+        }
+    }
+    .svg-clouds {
+        fill: $white;
+        background-color: $blue-darkest;
+        position: relative;
+    }
+    .svg-name {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 0.5px;
+    }
+    .svg-venue-map {
+        .venue-box {
+            fill: $white;
+        }
+        .venue-shadow {
+            fill: #f2f2f2;
+        }
+    }
+}

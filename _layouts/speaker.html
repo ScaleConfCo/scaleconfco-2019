@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+    {% include nav.html %}
+    {% include welcome.html %}
+    {{ content }}
+    <div class="speaker">
+        <img src="/images/speakers/{{ page.photo }}.png" alt="{{ page.twitter }}" class="speakerImg">
+        <a class="speakerTwitter" href="https://www.twitter.com/{{ page.twitter }}"><i class="icon twitter" alt="twitter"></i></a>
+        <p class="speakerName">{{ page.name }}</p>
+        <p class="speakerDescription">{{ page.description }}</p>
+    </div>
+	{% include footer.html %}
+</body>
+</html>

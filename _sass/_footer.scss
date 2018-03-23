@@ -1,0 +1,31 @@
+footer {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2.5rem 0 3rem;
+    display: flex;
+    justify-content: center;
+    > div {
+        display: flex;
+        flex-direction: column;
+        > div {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 0.3rem;
+        }
+    }
+    a {
+        &.mail {
+            color: $blue-lighter;
+            &:hover {
+                color: $blue-darkest;
+            }
+        }
+    }
+    p {
+        &.title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: $blue-darkest;
+        }
+    }
+}

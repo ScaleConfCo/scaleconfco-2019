@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% include head.html %}
+	<style type="text/css">
+		.container {
+		  margin: 10vh auto 0;
+		  text-align: center;
+		}
+		.container h1 {
+		  margin: 0;
+		  line-height: 1;
+		  letter-spacing: -1px;
+		}
+		.container p {
+			margin: 0;
+		}
+		.container > p:first-of-type {
+			font-size: 1.4rem;
+			font-weight: bold;
+			line-height: 1rem;
+			margin: 0 0 2rem;
+		}
+		a p {
+			color: #0099F7;
+		}
+	</style>
+</head>
+<body>
+	{{ content }}
+</body>
+</html>

@@ -1,0 +1,18 @@
+{% assign t = site.data.lang.[page.lang] %}
+<section class="mailingList">
+    <div>
+        <p class="title">{{ t.mailing.title }}</p>
+        <form action="//scaleconfco.us13.list-manage.com/subscribe/post?u=5e496acbac5eeec4a22312bd0&amp;id=96c6dc44ae" method="post">
+            <input type="email" name="EMAIL" placeholder="" class="formEmail"
+            />
+            <input type="submit" value="{{ t.mailing.button }}" class="emailSubscribe blueButton formButton" onclick="ga('send', 'event', 'Join mailing list', 'click', '2018');"/>
+        </form>
+        <p class="title">{{ t.mailing.follow }}</p>
+        <div class="social">
+            <a href="https://www.facebook.com/scaleconfco/"><i class="icon facebook" alt="facebook"></i></a>
+            <a href="https://www.twitter.com/scaleconfco/"><i class="icon twitter" alt="twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="icon instagram" alt="instagram"></i></a>
+            <a href="https://www.flickr.com/photos/137671831@N08/"><i class="icon flickr" alt="flickr"></i></a>
+        </div>
+    </div>
+</section>
