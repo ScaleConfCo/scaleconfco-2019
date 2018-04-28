@@ -1,0 +1,33 @@
+section.code {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+    svg {
+        margin-bottom: 1rem;
+        text {
+            text-anchor: middle;
+            font-size: 1px;
+            font-family: inherit;
+            font-weight: bolder;
+            text-transform: uppercase;
+            stroke-width: .015;
+            stroke: $blue-darkest;
+            &:first-child {
+                fill: none;
+            }
+            &:last-child {
+                fill: $white;
+            }
+        }
+    }
+    div {
+        p {
+            display: flex;
+            margin-bottom: 0.7rem;
+            color: $blue-darkest;
+            a {
+                margin: 2rem auto 0;
+            }
+        }
+    }
+}

@@ -6,7 +6,10 @@
     </svg>
 </section>
 <section class="speakers">
-    <h2>{{ t.speakers.title }}</h2>
+    <svg viewbox="0 0 10 1.2">
+        <text x="4.93" y="0.93">{{ t.speakers }}</text>
+        <text x="5" y="1">{{ t.speakers }}</text>
+    </svg>
     <div>
         {% for speaker in site.speakers %}
         <div class="speaker">

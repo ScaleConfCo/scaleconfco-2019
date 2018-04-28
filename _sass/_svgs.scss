@@ -20,6 +20,23 @@ section {
             fill: $blue-lighter;
         }
     }
+    .svg-code {
+        position: relative;
+        top: 0px;
+        background-color: $blue-darkest;
+        .front {
+            fill: $white;
+        }
+        .shadow {
+            fill: $blue-lighter;
+        }
+    }
+    .svg-buy {
+        top: 10px;
+        fill: $blue-darkest;
+        background-color: $white;
+        position: relative;
+    }
     .svg-footer {
         position: relative;
         top: -1px;

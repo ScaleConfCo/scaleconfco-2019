@@ -2,12 +2,24 @@ section.speakers {
     background-color: $blue-darkest;
     margin: 0;
     padding: 0 15%;
+    padding-bottom: 2rem;
     position: relative;
-    h2 {
-        margin-top: 0;
-        color: $green;
-        &:after {
-            border-bottom-color: $green;
+    svg {
+        margin-bottom: 1rem;
+        text {
+            text-anchor: middle;
+            font-size: 1px;
+            font-family: inherit;
+            font-weight: bolder;
+            text-transform: uppercase;
+            stroke-width: .015;
+            stroke: $green;
+            &:first-child {
+                fill: none;
+            }
+            &:last-child {
+                fill: $blue-darkest;
+            }
         }
     }
     > div{

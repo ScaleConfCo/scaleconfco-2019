@@ -1,0 +1,38 @@
+section.buy {
+    background-color: $blue-darkest;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 15%;
+    margin: 0;
+    svg {
+        margin-bottom: 1rem;
+        text {
+            text-anchor: middle;
+            font-size: 1px;
+            font-family: inherit;
+            font-weight: bolder;
+            text-transform: uppercase;
+            stroke-width: .015;
+            stroke: $green;
+            &:first-child {
+                fill: none;
+            }
+            &:last-child {
+                fill: $blue-darkest;
+            }
+        }
+    }
+    div {
+        p {
+            display: flex;
+            margin-bottom: 0.7rem;
+            color: $blue-darkest;
+            text-align: center;
+        }
+    }
+    a {
+        &.button {
+            margin: 0 auto;
+        }
+    }
+}
