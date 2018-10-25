@@ -1,0 +1,58 @@
+{
+    "nav": [
+        "-v 2.0.17",
+        "-v 2.0.18",
+        "Become a sponsor"
+    ],
+    "date": "May 17 - 18th 2019",
+    "tickets": "Buy your tickets",
+    "mailing": {
+        "title": "Stay tuned, join our mailing list",
+        "button": "Join",
+        "follow": "And follow us"
+    },
+    "buy": {
+        "title": "Get your ticket!",
+        "button": "Buy now!"
+    },
+    "about": {
+        "title": "About the conference",
+        "blue": "ScaleConf Colombia is a non-profit language-agnostic conference organized by volunteers to bring knowledge on scalability, distributed systems, DevOps and modern software tools to the community.",
+        "first": "Our main objective is to level up the community’s knowledge, by bringing great speakers from the teams that are paving the way for a global scale in tomorrow’s apps and services.",
+        "second": "Last year’s event was successful beyond our expectations, with over 350 attendees, 13 awesome speakers, 10 sponsors and 2 days of exciting talks and workshops, so ScaleConf Colombia is coming back for 2018!"
+    },
+    "speakers": "Speakers",
+    "code": {
+        "title": "Code of Conduct",
+        "first": "A primary goal of ScaleConf Colombia is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible.",
+        "second": "As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior. We invite all those who participate in ScaleConf Colombia to help us create safe and positive experiences for everyone.",
+        "button": "Read our Code of Conduct"
+    },
+    "footer": {
+        "title": "Let’s stay in touch, follow us",
+        "question": "Got any questions?"
+    },
+    "seeMap": "See the map",
+    "venue": {
+        "title": "Venue",
+        "first": "The conference will be held at Complejo Ruta N, Calle 67 Nº 52-20 which is easily accessible by uber, taxi, bus and a 5 minute walk away from Universidad Metro station. There are a bunch of restaurants that are part of Ruta N's complex or a short walking distance in which you will be able to find lunch.",
+        "address": "Address",
+        "venue": {
+            "name": "RutaN Medellín",
+            "address": "Calle 67 Nº 52-20",
+            "website": "https://www.rutanmedellin.org",
+            "linkText": "Website"
+        }
+    },
+    "hotel": {
+        "title": "Hotel",
+        "first": "Our principal hotel is the Diez Hotel, perfectly located in the heart of Medellín’s vibrant El Poblado neighborhood. The Hotel showcase a unique blend of traditional and modern architecture crafted by some of the finest local artisans.",
+        "address": "Address",
+        "hotel": {
+            "name": "Diez Hotel Categoria Colombia",
+            "address": "Calle 10 A Nº 34 - 11",
+            "website": "https://reservations.travelclick.com/103293?groupID=2260275",
+            "linkText": "Book Now!"
+        }
+    }
+}

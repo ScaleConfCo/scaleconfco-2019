@@ -1,4 +1,4 @@
-{% assign t = site.data.lang.[page.lang] %}
+{% assign t = site.data.[page.lang].code %}
 <!--
 <section class="svg">
     <svg class="svg-code" xmlns="http://www.w3.org/2000/svg" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -9,12 +9,12 @@
 -->
 <section class="code">
     <svg viewbox="0 0 10 1.2">
-        <text x="4.93" y="0.93">{{ t.code.title }}</text>
-        <text x="5" y="1">{{ t.code.title }}</text>
+        <text x="4.93" y="0.93">{{ t.title }}</text>
+        <text x="5" y="1">{{ t.title }}</text>
     </svg>
     <div>
-        <p>{{ t.code.first }}</p>
-        <p>{{ t.code.second }}</p>
-        <p><a href="https://github.com/ScaleConfCo/code-of-conduct" class="button blueButton" onclick="ga('send', 'event', 'button', 'click', 'COC');">{{ t.code.button }}</a></p>
+        <p>{{ t.first }}</p>
+        <p>{{ t.second }}</p>
+        <p><a href="https://github.com/ScaleConfCo/code-of-conduct" class="button blueButton" onclick="ga('send', 'event', 'button', 'click', 'COC');">{{ t.button }}</a></p>
     </div>
 </section>

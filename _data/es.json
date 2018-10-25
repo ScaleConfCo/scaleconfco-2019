@@ -1,0 +1,58 @@
+{
+    "nav": [
+        "-v 2.0.17",
+        "-v 2.0.18",
+        "Se un patrocinador"
+    ],
+    "date": "Mayo 17 - 18 2019",
+    "tickets": "Compra tus entrada",
+    "mailing": {
+        "title": "Mantente en contacto, entra en nuestra lista de emails",
+        "button": "Entrar",
+        "follow": "Y síguenos"
+    },
+    "buy": {
+        "title": "¡Obten tu entrada!",
+        "button": "¡La quiero ya!"
+    },
+    "about": {
+        "title": "Acerca de la conferencia",
+        "blue": "ScaleConf Colombia es una conferencia sin animo de lucro, agnostica de lenguaje, organizada por voluntarios para brindar conocimiento en escalabilidad, sistemas distribuidos, DevOps y herramientas modernas de software a la comunidad.",
+        "first": "Nuestro principal objetivo es incrementar el nivel del conocimiento de la comunidad, brindando grandes conferencistas de los equipos que estan pavimentando el camino a la escalabilidad global de las aplicaciones y servicios del mañana",
+        "second": "El evento del año pasado fue un exito sobre nuestras expectativas, con más de 350 asistentes, 13 increibles conferencistas, 10 patrocinadores y 2 días de emocionantes charlas y talleres. ¡Por eso ScaleConf Colombia está de regreso para el 2018!"
+    },
+    "speakers": "Speakers",
+    "code": {
+        "title": "Código de Conducta",
+        "first": "Un objetivo principal de ScaleConf Colombia es incluir a la mayor cantidad de contribuyentes, con los perfiles más variados y diversos posibles.",
+        "second": "Como tal, nos comprometemos a proporcionar un entorno amigable, seguro y acogedor para todos, independientemente de su sexo, orientación sexual, capacidad, origen étnico, nivel socioeconómico y religión (o la falta de ella). Este código de conducta describe nuestras expectativas para todos aquellos que participan en nuestra comunidad, así como también las consecuencias de un comportamiento inaceptable. Invitamos a todos los que participan en ScaleConf Colombia a que nos ayuden a crear experiencias seguras y positivas para todos.",
+        "button": "Lee nuestro Código de Conducta"
+    },
+    "footer": {
+        "title": "Estemos en contacto, síguenos",
+        "question": "¿Tienes alguna pregunta?"
+    },
+    "seeMap": "Ver el mapa",
+    "venue": {
+        "title": "Lugar del Evento",
+        "first": "La conferencia se realizará en el Complejo Ruta N, Calle 67 Nº 52-20 al cual se puede llegar fácilmente en taxi, bus o 5 minutos caminando desde la estación Universidad del sistema Metro. Hay varios restaurantes que hacen parte del complejo Ruta N o quedan muy cerca caminando donde podrás encontrar buenos lugares para almorzar.",
+        "address": "Dirección",
+        "venue": {
+            "name": "RutaN Medellín",
+            "address": "Calle 67 Nº 52-20",
+            "website": "https://www.rutanmedellin.org",
+            "linkText": "Sitio Web"
+        }
+    },
+    "hotel": {
+        "title": "Hotel",
+        "first": "Nuestro principal hotel es el Diez Hotel, perfectamente ubicado en el corazón del vibrante barrio de El Poblado de Medellín. El hotel exhibe una mezcla única de arquitectura tradicional y moderna creada por algunos de los mejores artesanos locales.",
+        "address": "Dirección",
+        "hotel": {
+            "name": "Diez Hotel Categoria Colombia",
+            "address": "Calle 10 A Nº 34 - 11",
+            "website": "https://reservations.travelclick.com/103293?groupID=2260275",
+            "linkText": "Agendar ahora"
+        }
+    }
+}

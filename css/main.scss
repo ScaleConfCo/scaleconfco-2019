@@ -20,6 +20,9 @@ section {
     padding-bottom: 5rem;
     margin-left: 15%;
     margin-right: 15%;
+    &.fluid {
+        margin: 0;
+    }
 }
 a {
     text-decoration: none;
@@ -94,4 +97,4 @@ h2 {
     }
 }
 
-@import 'nav', 'welcome', 'mailing', 'speakers', 'code', 'buy', 'svgs', 'footer';
+@import 'nav', 'welcome', 'mailing', 'speakers', 'code', 'buy', 'venue', 'svgs', 'footer', 'internal';

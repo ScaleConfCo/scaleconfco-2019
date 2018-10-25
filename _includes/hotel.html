@@ -1,4 +1,4 @@
-{% assign t = site.data.[page.lang].venue %}
+{% assign t = site.data.[page.lang].hotel %}
 <section class="venue">
     <div class="venue-information">
         <svg viewbox="0 0 10 1.2">
@@ -8,9 +8,9 @@
         <p>{{ t.first }}</p>
         <div>
             <div>
-                <h4>{{ t.venue.name }}</h4>
-                <p>{{ t.address }}: {{ t.venue.address }}</p>
-                <a class="button blueButton" href="{{ t.venue.website }}">{{ t.venue.linkText }}</a>
+                <h4>{{ t.hotel.name }}</h4>
+                <p>{{ t.address }}: {{ t.hotel.address }}</p>
+                <a class="button blueButton" href="{{ t.hotel.website }}">{{ t.hotel.linkText }}</a>
             </div>
         </div>
     </div>
