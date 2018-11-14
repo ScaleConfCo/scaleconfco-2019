@@ -18,10 +18,12 @@ body, p {
 }
 section {
     padding-bottom: 5rem;
-    margin-left: 15%;
-    margin-right: 15%;
     &.fluid {
         margin: 0;
+    }
+    svg.title {
+        max-height: 80px;
+        width: 100%;
     }
 }
 a {
@@ -97,4 +99,4 @@ h2 {
     }
 }
 
-@import 'nav', 'welcome', 'mailing', 'speakers', 'code', 'buy', 'venue', 'svgs', 'footer', 'internal';
+@import 'grid', 'nav', 'welcome', 'cfp', 'mailing', 'speakers', 'code', 'buy', 'venue', 'svgs', 'footer', 'internal';

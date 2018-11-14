@@ -1,17 +1,6 @@
 {% assign t = site.data.[page.lang].code %}
-<!--
-<section class="svg">
-    <svg class="svg-code" xmlns="http://www.w3.org/2000/svg" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <polygon class="shadow" points="0,0 0,100 100,100 100,0 54,0 51,100 49,100 46,0 0,0"/>
-        <polygon class="front" points="0,20 0,100 100,100 100,20 52,20 49.8,100 50.2,100 48,20 0,20"/>
-    </svg>
-</section>
--->
-<section class="code">
-    <svg viewbox="0 0 10 1.2">
-        <text x="4.93" y="0.93">{{ t.title }}</text>
-        <text x="5" y="1">{{ t.title }}</text>
-    </svg>
+<section class="container code">
+    {% include title.html title=t.title %}
     <div>
         <p>{{ t.first }}</p>
         <p>{{ t.second }}</p>

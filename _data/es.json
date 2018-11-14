@@ -54,5 +54,10 @@
             "website": "https://reservations.travelclick.com/103293?groupID=2260275",
             "linkText": "Agendar ahora"
         }
+    },
+    "cfp": {
+        "title": "Nuestro CFP está abierto",
+        "description": "Ven a visitar la bella Colombia y comparte tu conocimiento",
+        "buttons": [ "Aplicar a una charla", "Aplicar a una charla rápida" ]
     }
 }

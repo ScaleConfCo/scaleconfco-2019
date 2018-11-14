@@ -1,0 +1,19 @@
+{% assign t = site.data.[page.lang].cfp %}
+<section class="cfp fluid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="50" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path class="triangle" d="M0 0 L100 100 L100 0 Z"></path>
+    </svg>
+        
+    <div class="container">
+        {% include title.html title=t.title %}
+        <p>{{ t.description }}</p>
+        <div>
+            <a href="https://cfp.scaleconfco.com/" class="button blueButton" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'CFP');">{{ t.buttons[0] }}</a>
+            <a href="https://lightning.scaleconfco.com/" class="button blueButton" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'Lightning talks');">{{ t.buttons[1] }}</a>
+        </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="50" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path class="triangle" d="M0 100 L100 100 L100 0 Z"></path>
+    </svg>
+</section>

@@ -1,10 +1,7 @@
 {% assign t = site.data.[page.lang].hotel %}
-<section class="venue">
+<section class="container venue">
     <div class="venue-information">
-        <svg viewbox="0 0 10 1.2">
-            <text x="4.93" y="0.93">{{ t.title }}</text>
-            <text x="5" y="1">{{ t.title }}</text>
-        </svg>
+        {% include title.html title=t.title %}
         <p>{{ t.first }}</p>
         <div>
             <div>
