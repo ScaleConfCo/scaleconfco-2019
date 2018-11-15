@@ -1,4 +1,0 @@
-<svg class="svg-venue-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-  <path class="venue-box" d="M639.48,0V400h400V0Zm43.64,342.5L657,43.64,955.83,17.5,982,316.36Z" transform="translate(-639.48)"/>
-  <path class="venue-shadow" d="M999.48,50V350h-300v-8.93L982,316.36,958.68,50Z" transform="translate(-639.48)"/>
-</svg>

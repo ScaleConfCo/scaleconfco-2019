@@ -5,7 +5,6 @@ description: ""
 baseurl: "/"
 url: "https://scaleconfco.com/"
 twitter_username: scaleconfco
-github_username:  ScaleConfCo
 
 repository: scaleconfco-2019/scaleconfco.github.io
 

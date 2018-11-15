@@ -1,10 +1,14 @@
-<section class="venue">
-    <div class="venue-map">
-        {% include venue.svg %}
-        <div id="map" style="height: 500px;"></div>
-    </div>
+{% assign t = site.data.[page.lang].venue %}
+<section class="container venue">
     <div class="venue-information">
-        <h3>Venue</h3>
-        <p>RutaN</p>
+        {% include title.html title=t.title %}
+        <p>{{ t.first }}</p>
+        <div>
+            <div>
+                <h4>{{ t.venue.name }}</h4>
+                <p>{{ t.address }}: {{ t.venue.address }}</p>
+                <a class="button blueButton" href="{{ t.venue.website }}">{{ t.venue.linkText }}</a>
+            </div>
+        </div>
     </div>
 </section>

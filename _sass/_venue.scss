@@ -1,0 +1,101 @@
+section.venue {
+    &.svg {
+        margin: 0 0 5rem;
+        height: 0;
+        .svg-banner {
+            bottom: 104px;
+            &:first-of-type {
+                bottom: 601px;
+            }
+        }
+    }
+    &.fluid {
+        margin: 0;
+        padding: 0;
+        .venue-map {
+            #map {
+                height: 600px;
+            }
+        }
+    }
+    svg {
+        text {
+            text-anchor: middle;
+            font-size: 1px;
+            font-family: inherit;
+            font-weight: bolder;
+            text-transform: uppercase;
+            stroke-width: .015;
+            stroke: $blue-darkest;
+            &:first-child {
+                fill: none;
+            }
+            &:last-child {
+                fill: $white;
+            }
+        }
+    }
+    .venue-information {
+        > p {
+            margin-bottom: 0.7rem;
+            color: $blue-darkest;
+            text-align: center;
+        }
+        > div {
+            display: flex;
+            flex-direction: row;
+            margin-top: 2rem;
+            > div {
+                width: 100%;
+                text-align: center;
+                h4 {
+                    color: $blue-darkest;
+                }
+                h4, p {
+                    margin: 0;
+                    padding: 0;
+                }
+                a {
+                    display: inline-block;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+    .map-window {
+        p {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            &.map-title {
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+/*   Responsive Media Queries   */
+@media screen and (max-width: 768px) {
+    section.venue {
+        &.svg {
+            .svg-banner {
+                bottom: 65px;
+                &:first-of-type {
+                    bottom: 451px;
+                }
+            }
+        }
+        svg:not(.title) {
+            bottom: 30px;
+            height: 30px;
+        }
+        &.fluid {
+            .venue-map {
+                #map {
+                    height: 450px;
+                }
+            }
+        }
+    }
+}

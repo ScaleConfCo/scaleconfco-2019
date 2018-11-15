@@ -1,4 +1,4 @@
-section.welcome {
+header {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -7,22 +7,14 @@ section.welcome {
     > div {
         color: $white;
         width: 100%;
-        margin-top: 20vh;
+        margin: 20vh 0 10vh;
         svg {
             font-weight: 800;
-            margin: 0 10%;
+            margin: 0 15% 2rem;
         }
         p {
             display: flex;
             justify-content: center;
-            &.colombia {
-                font-weight: 300;
-                font-size: 4rem;
-                line-height: 4rem;
-                letter-spacing: 1rem;
-                margin-bottom: 2.5rem;
-                color: $white;
-            }
             &.dates {
                 background-color: $blue-darkest;
                 color: $green;
@@ -51,50 +43,32 @@ section.welcome {
 
 /*   Responsive Media Queries   */
 @media screen and (max-width: 768px) {
-    section.welcome {
-        background-size: cover;
-        background-position: center;
-        padding: 10vh 0 75vh;
+    header {
+        padding: 15vh 0 0;
         > div {
             margin-top: 0;
+            margin-bottom: 5vh;
             svg {
                 margin: 0 5% 0;
             }
             p {
-                &.colombia {
-                    font-size: 3rem;
-                    line-height: 3rem;
-                    letter-spacing: 0.8rem;
-                }
                 &.dates {
                     text-align: center;
                     font-size: 1.3rem;
-                    margin: 0 30%;
+                    margin: 0;
                 }
             }
             .tickets {
                 text-align: center;
-                margin: 2rem 35%;
+                margin: 1rem 25% 2rem;
             }
         }
     }
 }
 @media screen and (max-width: 500px) {
-    section.welcome {
+    header {
         p.dates {
             margin: 0 20%;
-        }
-        .tickets {
-            text-align: center;
-            margin: 2rem 30%;
-        }
-    }
-}
-@media screen and (max-width: 400px) {
-    section.welcome {
-        p.colombia {
-            font-size: 2rem;
-            line-height: 2.5rem;
         }
     }
 }

@@ -59,12 +59,14 @@ section {
         stroke-miterlimit: 10;
         stroke-width: 0.5px;
     }
-    .svg-venue-map {
-        .venue-box {
-            fill: $white;
-        }
-        .venue-shadow {
-            fill: #f2f2f2;
+}
+
+/*   Responsive Media Queries   */
+@media screen and (max-width: 768px) {
+    section {
+        .svg-banner {
+            bottom: 30px;
+            height: 30px;
         }
     }
 }

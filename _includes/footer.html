@@ -1,6 +1,4 @@
-{% assign t = site.data.lang.[page.lang] %}
-<!--<section class="svg">{% include fig_clouds.svg %}</section>-->
-<!--<section class="svg">{% include fig_footer.svg %}</section>-->
+{% assign t = site.data.[page.lang] %}
 <footer>
     <div>
         <!--
@@ -15,22 +13,5 @@
         </div>
     </div>
 </footer>
-<script>
-    (function () {
-        var nav_toggle = document.querySelector('.nav-toggle');
-        var nav = document.querySelector('.nav');
-        nav_toggle.addEventListener('click', function(e) {
-            this.classList.toggle('opened');
-            nav.classList.toggle('show');
-        });
-    })();
-
-    function showMore(selfId, id) {
-        document.getElementById(selfId).style.display = "none";
-        document.getElementById(id).style.display = "block";
-    }
-    function showLess(selfId, id) {
-        document.getElementById(selfId).style.display = "none";
-        document.getElementById(id).style.display = "block";
-    }
-</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBJs37uVUzuOn2tO-wO5HpP603nTiEI5w&callback=initMap"></script>
+<script src="/js/main.js"></script>
