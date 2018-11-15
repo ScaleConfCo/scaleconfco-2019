@@ -60,3 +60,13 @@ section {
         stroke-width: 0.5px;
     }
 }
+
+/*   Responsive Media Queries   */
+@media screen and (max-width: 768px) {
+    section {
+        .svg-banner {
+            bottom: 30px;
+            height: 30px;
+        }
+    }
+}

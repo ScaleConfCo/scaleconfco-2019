@@ -40,3 +40,26 @@ section.cfp {
         }
     }
 }
+
+/*   Responsive Media Queries   */
+@media screen and (max-width: 768px) {
+    section.cfp {
+        svg:not(.title) {
+            bottom: 30px;
+            height: 30px;
+        }
+    }
+}
+@media screen and (max-width: 440px) {
+    section.cfp {
+        div.container {
+            margin: 3rem auto;
+            div {
+                a {
+                    display: block;
+                    margin: 1rem 2rem;
+                }
+            }
+        }
+    }
+}

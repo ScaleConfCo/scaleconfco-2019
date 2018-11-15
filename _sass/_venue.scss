@@ -12,6 +12,11 @@ section.venue {
     &.fluid {
         margin: 0;
         padding: 0;
+        .venue-map {
+            #map {
+                height: 600px;
+            }
+        }
     }
     svg {
         text {
@@ -65,6 +70,31 @@ section.venue {
             &.map-title {
                 font-weight: bold;
                 font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+/*   Responsive Media Queries   */
+@media screen and (max-width: 768px) {
+    section.venue {
+        &.svg {
+            .svg-banner {
+                bottom: 65px;
+                &:first-of-type {
+                    bottom: 451px;
+                }
+            }
+        }
+        svg:not(.title) {
+            bottom: 30px;
+            height: 30px;
+        }
+        &.fluid {
+            .venue-map {
+                #map {
+                    height: 450px;
+                }
             }
         }
     }

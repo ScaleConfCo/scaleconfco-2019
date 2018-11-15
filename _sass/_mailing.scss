@@ -1,4 +1,4 @@
-section.mailingList {
+section.mailing {
     margin-top: 0;
     display: flex;
     justify-content: center;
@@ -16,14 +16,15 @@ section.mailingList {
         }
         form {
             margin-bottom: 2rem;
-            .formEmail {
+            .form-email {
                 width: 35vw;
                 margin-right: 0.7rem;
                 border: none;
                 border-bottom: 1px solid $blue-darkest;
                 text-align: center;
+                color: $gray;
             }
-            .formButton {
+            .form-button {
                 width: 13vw;
                 cursor: pointer;
                 background-color: $blue-lighter;
@@ -37,6 +38,28 @@ section.mailingList {
                 &:hover {
                     background-color: $green;
                     color: #fff;
+                }
+            }
+        }
+    }
+}
+
+/*   Responsive Media Queries   */
+@media screen and (max-width: 768px) {
+    section.mailing {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        form {
+            input {
+                display: block;
+                &[type="email"] {
+                    font-size: 1rem;
+                    margin: 1.5rem 0 1rem;
+                    width: 100%;
+                }
+                &[type="submit"] {
+                    margin: 0 auto;
+                    min-width: 10rem;
                 }
             }
         }
