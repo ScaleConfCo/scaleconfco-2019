@@ -51,7 +51,7 @@
         "hotel": {
             "name": "Diez Hotel Categoria Colombia",
             "address": "Calle 10 A Nº 34 - 11",
-            "website": "https://reservations.travelclick.com/103293?groupID=2260275",
+            "website": "https://reservations.travelclick.com/103293?groupID=2260275&languageid=2",
             "linkText": "Agendar ahora"
         }
     },
