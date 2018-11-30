@@ -58,6 +58,6 @@
     "cfp": {
         "title": "Nuestro CFP está abierto",
         "description": "Ven y comparte tu conocimiento",
-        "buttons": [ "Aplicar a una charla", "Aplicar a una charla rápida" ]
+        "buttons": [ "Comparte una charla", "Comparte una charla rápida" ]
     }
 }
