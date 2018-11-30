@@ -16,7 +16,7 @@
         "button": "Buy now!"
     },
     "about": {
-        "title": "About the conference",
+        "title": "About us",
         "blue": "ScaleConf Colombia is a non-profit language-agnostic conference organized by volunteers to bring knowledge on scalability, distributed systems, DevOps and modern software tools to the community.",
         "first": "Our main objective is to level up the community’s knowledge, by bringing great speakers from the teams that are paving the way for a global scale in tomorrow’s apps and services.",
         "second": "Last year’s event was successful beyond our expectations, with over 350 attendees, 13 awesome speakers, 10 sponsors and 2 days of exciting talks and workshops, so ScaleConf Colombia is coming back for 2018!"

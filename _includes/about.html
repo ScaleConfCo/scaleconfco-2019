@@ -1,13 +1,14 @@
-{% assign t = site.data.[page.lang] %}
-<section class="container about">
-    <h2>{{ t.about.title }}</h2>
+{% assign t = site.data.[page.lang].about %}
+<section class="container about" id="about">
+    {% include title.html title=t.title %}
+    
     <div>
         <div>
-            <p class="aboutBlueText">{{ t.about.blue }}</p>
+            <p class="aboutBlueText">{{ t.blue }}</p>
         </div>
         <div>
-            <p>{{ t.about.first }}</p>
-            <p>{{ t.about.second }}</p>
+            <p>{{ t.first }}</p>
+            <p>{{ t.second }}</p>
         </div>
     </div>
 </section>
