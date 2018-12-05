@@ -2,7 +2,8 @@
     "nav": [
         "-v 2.0.17",
         "-v 2.0.18",
-        "Become a sponsor"
+        "Become a sponsor",
+        "-v 2.0.18 Videos"
     ],
     "date": "May 17 - 18th 2019",
     "tickets": "Buy your tickets",
@@ -17,9 +18,9 @@
     },
     "about": {
         "title": "About us",
-        "blue": "ScaleConf Colombia is a non-profit language-agnostic conference organized by volunteers to bring knowledge on scalability, distributed systems, DevOps and modern software tools to the community.",
+        "blue": "ScaleConf Colombia is a 2-day language-agnostic tech conference about scalability, distributed systems, security, machine learning, DevOps, modern software tools and practices.",
         "first": "Our main objective is to level up the community’s knowledge, by bringing great speakers from the teams that are paving the way for a global scale in tomorrow’s apps and services.",
-        "second": "Last year’s event was successful beyond our expectations, with over 350 attendees, 13 awesome speakers, 10 sponsors and 2 days of exciting talks and workshops, so ScaleConf Colombia is coming back for 2018!"
+        "second": "Our last event was successful beyond our expectations, with over 350 attendees, 19 awesome speakers, 14 sponsors and 2 days of exciting talks. Our next event is happening May 17 & 18, 2019!"
     },
     "speakers": "Speakers",
     "code": {

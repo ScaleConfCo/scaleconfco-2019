@@ -2,10 +2,11 @@
     "nav": [
         "-v 2.0.17",
         "-v 2.0.18",
-        "Se un patrocinador"
+        "Se un patrocinador",
+        "2018 Videos"
     ],
     "date": "Mayo 17 - 18 2019",
-    "tickets": "Compra tus entrada",
+    "tickets": "Reserva ahora tu entrada",
     "mailing": {
         "title": "Mantente en contacto, entra en nuestra lista de emails",
         "button": "Entrar",
@@ -17,9 +18,9 @@
     },
     "about": {
         "title": "Acerca de la conferencia",
-        "blue": "ScaleConf Colombia es una conferencia sin animo de lucro, agnostica de lenguaje, organizada por voluntarios para brindar conocimiento en escalabilidad, sistemas distribuidos, DevOps y herramientas modernas de software a la comunidad.",
+        "blue": "ScaleConf Colombia es un evento agnóstico a los lenguajes de programación, que busca actualizar los conocimientos de la comunidad en temas como escalabilidad, sistemas distribuídos, machine learning, seguridad, DevOps, y herramientas y prácticas modernas de software.",
         "first": "Nuestro principal objetivo es incrementar el nivel del conocimiento de la comunidad, brindando grandes conferencistas de los equipos que estan pavimentando el camino a la escalabilidad global de las aplicaciones y servicios del mañana",
-        "second": "El evento del año pasado fue un exito sobre nuestras expectativas, con más de 350 asistentes, 13 increibles conferencistas, 10 patrocinadores y 2 días de emocionantes charlas y talleres. ¡Por eso ScaleConf Colombia está de regreso para el 2018!"
+        "second": "Nuestro último evento fue exitoso más allá de nuestras expectativas, con más de 350 asistentes, 19 ponentes increíbles, 14 patrocinadores y dos días de charlas. Nuestro próximo evento se realizara entre Mayo 17 & 18, 2019!"
     },
     "speakers": "Speakers",
     "code": {
