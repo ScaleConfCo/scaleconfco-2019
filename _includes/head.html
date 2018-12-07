@@ -14,9 +14,11 @@
   {% endif %}
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800"> 
   <link rel="stylesheet" href="/css/main.css">
-  <meta name="description" content="{{ site.data.[page.lang].about.blue }}" />
+  <meta name="description" content="{{ site.description.[page.lang] }}" />
   <meta name="og:title" content="{{ page.title }}" />
-  <meta name="og:description" content="{{ site.data.[page.lang].about.blue }}" />
+  <meta name="og:description" content="{{ site.description.[page.lang] }}" />
   <meta property="og:image" content="{{ site.url }}/images/og-image.png" />
+  <meta property="og:image:width" content="1280" />
+  <meta property="og:image:height" content="720" />
   {% include favicon.html %}
 </head>
