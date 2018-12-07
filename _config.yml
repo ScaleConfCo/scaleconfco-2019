@@ -1,9 +1,11 @@
 # Site Settings
 title: ScaleConfCo
 email: hola@scaleconfco.com
-description: ""
+description:
+  en: 2-day language-agnostic tech conference about scalability, distributed systems, security, machine learning, DevOps, modern software tools and practices
+  es: Evento agnóstico a lenguajes de programación sobre escalabilidad, sistemas distribuídos, machine learning, seguridad, DevOps, herramientas y prácticas modernas
 baseurl: "/"
-url: "https://scaleconfco.com/"
+url: "https://scaleconfco.com"
 twitter_username: scaleconfco
 
 repository: scaleconfco-2019/scaleconfco.github.io

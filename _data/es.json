@@ -18,7 +18,7 @@
     },
     "about": {
         "title": "Acerca de la conferencia",
-        "blue": "ScaleConf Colombia es un evento agnóstico a los lenguajes de programación, que busca actualizar los conocimientos de la comunidad en temas como escalabilidad, sistemas distribuídos, machine learning, seguridad, DevOps, y herramientas y prácticas modernas de software.",
+        "blue": "ScaleConf Colombia es un evento agnóstico a los lenguajes de programación, que busca actualizar los conocimientos de la comunidad en temas como escalabilidad, sistemas distribuídos, machine learning, seguridad, DevOps, herramientas y prácticas modernas de software.",
         "first": "Nuestro principal objetivo es incrementar el nivel del conocimiento de la comunidad, brindando grandes conferencistas de los equipos que estan pavimentando el camino a la escalabilidad global de las aplicaciones y servicios del mañana",
         "second": "Nuestro último evento fue exitoso más allá de nuestras expectativas, con más de 350 asistentes, 19 ponentes increíbles, 14 patrocinadores y dos días de charlas. Nuestro próximo evento se realizara entre Mayo 17 & 18, 2019!"
     },
