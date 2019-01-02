@@ -60,5 +60,11 @@
         "title": "Nuestro CFP está abierto",
         "description": "Ven y comparte tu conocimiento",
         "buttons": [ "Comparte una charla", "Comparte una charla rápida" ]
+    },
+    "sponsors": {
+        "title": "Nuestros patrocinadores",
+        "description": "Ellos hacen este evento posible",
+        "button": "Se un patrocinador",
+        "hiring": "¡Contratando!"
     }
 }

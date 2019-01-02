@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Platinum",
+        "slug": "platinum",
+        "sponsors": []
+    },
+    {
+        "name": "Gold",
+        "slug": "gold",
+        "sponsors": [
+            {
+                "name": "rutaN",
+                "website": "https://www.rutanmedellin.org",
+                "image": "rutan"
+            }
+        ]
+    },
+    {
+        "name": "Silver",
+        "slug": "silver",
+        "sponsors": []
+    },
+    {
+        "name": "Bronze",
+        "slug": "bronze",
+        "sponsors": [
+            {
+                "name": "Endava",
+                "website": "http://www.endava.com/",
+                "image": "endava"
+            }
+        ]
+    }
+]

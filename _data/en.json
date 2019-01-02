@@ -60,5 +60,11 @@
         "title": "Our CFP is open",
         "description": "Come and share your knowledge",
         "buttons": [ "Submit a talk", "Submit a lightning talk" ]
+    },
+    "sponsors": {
+        "title": "Our Sponsors",
+        "description": "They make this event possible",
+        "button": "Become a sponsor",
+        "hiring": "Hiring!"
     }
 }

@@ -1,0 +1,35 @@
+{% assign t = site.data.[page.lang].sponsors %}
+
+<section id="sponsors" class="container sponsors">
+    <div class="sponsors-header">
+        {% include title.html title=t.title %}
+        <p>{{ t.description }}</p>
+    </div>
+    {% for plan in site.data.sponsors %}
+        {% if plan.sponsors.size > 0 %}
+            <div class="sponsors-category {{ plan.slug }}">
+                <h4>{{ plan.name }}</h4>
+                <div class="sponsors-list">
+                    {% for sponsor in plan.sponsors %}
+                        <div class="sponsor">
+                            {% if sponsor.hiring %}
+                                <div class="hiring">{{ t.hiring }}</div>
+                            {% endif %}
+                            <a href="{{ sponsor.website }}" target="_blank" class="sponsor-image" onclick="ga('send', 'event', 'Sponsors', 'click', '{{ sponsor.name }}');">
+                                <img src="/images/sponsors/{{ sponsor.image }}.png" alt="Sponsor - {{ sponsor.name }}">
+                            </a>
+                            {% if sponsor.blurb %}
+                                <div class="sponsor-blurb">
+                                    <p>{{ sponsor.blurb }}</p>
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+    <div class="sponsors-button">
+        <a href="mailto:hola@scaleconfco.com?subject=Scaleconfco%E2%80%99s%20sponsorship&body=I%20would%20like%20more%20information%20on%20Scaleconfco%E2%80%99s%20sponsorship." class="sponsor-button" onclick="ga('send', 'event', 'button', 'click', 'Become a sponsor');">{{ t.button }}</a>
+    </div>
+</section>
