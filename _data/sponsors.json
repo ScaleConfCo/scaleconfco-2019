@@ -2,7 +2,13 @@
     {
         "name": "Platinum",
         "slug": "platinum",
-        "sponsors": []
+        "sponsors": [
+            {
+                "name": "Seven4n",
+                "website": "http://s4n.co/es-trabaja-con-nosotros",
+                "image": "seven4n"
+            },
+        ]
     },
     {
         "name": "Gold",
