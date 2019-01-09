@@ -66,5 +66,13 @@
         "description": "Ellos hacen este evento posible",
         "button": "Se un patrocinador",
         "hiring": "¡Contratando!"
+    },
+    "accessibility": {
+        "title": "Accesibilidad",
+        "texts": [
+            "Nuestro lugar de conferencias RutaN es accesible desde las 3 calles que lo rodean. Si usted llega por la Carrera 55 podrá encontrar una rampa en el lado izquierdo del edificio. RutaN tiene baños en el primer piso con puestos accesibles. Nuestro registro está a nivel de mesa. Nuestro evento es en el primer piso. Nuestra zona del vestíbulo se llena en los descansos. Nuestro salón de conferencistas esta en el segundo piso y es accesible por elevador.",
+            "Nuestro hotel principal, el Diez Hotel, tiene rampa al lado de la entrada y elevadores a los cuartos. El Diez Hotel tiene cuartos accesibles.",
+            "Nuestro lugar para el evento de cierre aún no ha sido confirmado. Si usted tiene dudas, por favor contactese con nosotros a hola [a] scaleconfco.com"
+        ]
     }
 }
