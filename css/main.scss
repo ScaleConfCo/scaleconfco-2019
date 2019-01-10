@@ -54,14 +54,6 @@ h2 {
     color: $blue-darkest;
     margin-bottom: 2rem;
     font-size: 1.5rem;
-    &:after{
-        content: "";
-        position: absolute;
-        width: 7%;
-        height: 1.45em;
-        left: 15%;
-        border-bottom: 3px solid $blue-darkest;
-    }
 }
 .bold {
     font-weight: bold;
@@ -99,4 +91,4 @@ h2 {
     }
 }
 
-@import 'grid', 'nav', 'welcome', 'cfp', 'about', 'mailing', 'speakers', 'code', 'buy', 'venue', 'svgs', 'footer', 'internal';
+@import 'grid', 'nav', 'welcome', 'cfp', 'about', 'mailing', 'speakers', 'code', 'buy', 'venue', 'sponsors', 'svgs', 'footer', 'internal';

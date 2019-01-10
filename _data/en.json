@@ -60,5 +60,19 @@
         "title": "Our CFP is open",
         "description": "Come and share your knowledge",
         "buttons": [ "Submit a talk", "Submit a lightning talk" ]
+    },
+    "sponsors": {
+        "title": "Our Sponsors",
+        "description": "They make this event possible",
+        "button": "Become a sponsor",
+        "hiring": "Hiring!"
+    },
+    "accessibility": {
+        "title": "Accessibility",
+        "texts": [
+            "Our venue RutaN is accessible from the surrounding three streets. If you arrive via Carrera 55, you will find the ramp on the left side facing the building. RutaN has bathrooms on the first floor with accessible stalls. Our registration is at table level. Our event is on the first floor. Our lobby area does get crowded in between breaks. Our speaker lounge is on the second floor and is accessible by elevator.",
+            "Our official hotel, el Diez Hotel, has a ramp on the side of the entrance and elevators to the room. The Diez Hotel has accessible rooms.",
+            "Our closing event venue has not been confirmed as of yet. If you have further questions, please contact us at hola [a] scaleconfco.com"
+        ]
     }
 }

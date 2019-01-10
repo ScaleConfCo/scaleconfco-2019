@@ -10,6 +10,9 @@ twitter_username: scaleconfco
 
 repository: scaleconfco-2019/scaleconfco.github.io
 
+plugins:
+  - jekyll-redirect-from
+
 sass:
   sass_dir: _sass
   style: compressed
