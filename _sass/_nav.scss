@@ -1,16 +1,33 @@
+@mixin animation_hide_item {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+@mixin animation_show_item {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
 nav {
     &.nav {
-        background-color: rgba(16,15,43,0.2);
+        background-color: $purple_dark;
         position: fixed;
         right: 0;
         left: 0;
         z-index: 9;
+    }
+    &.scroll {
+        box-shadow: 0 1px 10px rgba(0,0,0,0.8);
     }
     &.nav-mobile {
         display: none;
     }
     ul {
         display: flex;
+        flex-direction: row;
         justify-content: flex-end;
         width: 100%;
         list-style-type: none;
@@ -18,6 +35,11 @@ nav {
         margin: 0;
         margin-left: 1em;
         padding: 0;
+        position: relative;
+        div {
+            display: flex;
+            flex-direction: row;
+        }
         li {
             margin: 2em 0.6rem;
             color: $white;
@@ -38,9 +60,9 @@ nav {
                     &.active {
                         background-color: $white;
                         color: $blue-darkest;
-                        &:hover {
-                            color: $green;
-                        }
+                    }
+                    &:hover {
+                        color: $green;
                     }
                 }
                 &.sponsor-button {
@@ -56,6 +78,71 @@ nav {
             }
             &:last-child {
                 margin-right: 4rem;
+            }
+            &.dropdown {
+                margin-right: 2rem;
+                > span {
+                    cursor: pointer;
+                    transition: 0.2s;
+                    &:hover {
+                        color: $green;
+                        &:after {
+                            transform: rotate(0deg);
+                            -moz-transform: rotate(0deg);
+                        }
+                    }
+                    &:after {
+                        content: '⌃';
+                        padding: 0 0.5rem;
+                        position: absolute;
+                        transition: 0.2s;
+                        transform: rotate(180deg);
+                        -moz-transform: rotate(180deg);
+                    }
+                }
+                &:hover {
+                    ul {
+                        @include animation_show_item;
+                    }
+                }
+                ul {
+                    background-color: $white;
+                    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+                    border-radius: 2px;
+                    color: $purple_dark;
+                    position: absolute;
+                    flex-direction: column;
+                    margin: 1rem 0 0 -4.5rem;
+                    padding: 0.5rem;
+                    width: auto;
+                    @include animation_hide_item;
+                    li {
+                        margin: 0;
+                        a {
+                            color: $purple_dark;
+                            display: block;
+                            padding: 0.6rem 1.5rem;
+                            &:hover {
+                                color: $blue-lighter;
+                            }
+                        }
+                    }
+                    &:before {
+                        content: "";
+                        background-color: $white;
+                        position: absolute;
+                        height: 10px;
+                        width: 10px;
+                        top: -5px;
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
+                        -webkit-transform: rotate(45deg);
+                        -moz-transform: rotate(45deg);
+                        transform: rotate(45deg);
+                        z-index: -9;
+                    }
+                }
             }
         }
     }
@@ -109,11 +196,11 @@ nav {
 @media screen and (max-width: 970px) {
     nav {
         &.nav {
-            display: none;
-            transition: 1s;
-            background-color: rgba(16,15,43,0.5);
+            transition: 0.5s;
+            background-color: rgba(16,15,43,0.7);
+            @include animation_hide_item;
             &.show {
-                display: unset;
+                @include animation_show_item;
             }
         }
         &.nav-mobile {
@@ -123,11 +210,52 @@ nav {
         }
         ul {
             flex-direction: column;
-            margin: 0 1rem;
+            margin: 0 2.5rem;
             padding: 0.5rem;
             li {
-                margin: 0;
-                padding: 0.7rem;
+                margin: 0.2rem 0;
+                a {
+                    display: inline-block;
+                    padding: 0.3rem;
+                }
+                &.dropdown {
+                    > span {
+                        display: none;
+                    }
+                    ul {
+                        transition: unset;
+                        position: relative;
+                        background: unset;
+                        box-shadow: unset;
+                        margin: 0;
+                        padding: 0;
+                        opacity: 1;
+                        visibility: visible;
+                        transform: unset;
+                        width: 100%;
+                        &:before {
+                            display: none;
+                        }
+                        li {
+                            margin: 0.2rem 0;
+                            a {
+                                padding: 0.3rem;
+                                color: $white;
+                                &:hover {
+                                    color: $green;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            div {
+                li {
+                    margin-right: 1.5rem;
+                    &:last-of-type {
+                        margin-right: 0;
+                    }
+                }
             }
         }
     }
