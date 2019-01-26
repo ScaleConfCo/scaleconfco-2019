@@ -1,7 +1,7 @@
 {
     "nav": [
         "Comprar Entradas",
-        "CFP",
+        "Charla Rápida",
         "Mas",
         "Se un patrocinador",
         "Lugar del Evento",
@@ -67,7 +67,7 @@
     },
     "cfp": {
         "title": "Nuestro CFP está abierto",
-        "description": "Ven y comparte tu conocimiento",
+        "description": "Ven y comparte tu conocimiento. Las Charlas rápidas están reservadas para ciudadanos colombianos o latinoamericanos viviendo en Colombia.",
         "buttons": [ "Comparte una charla", "Comparte una charla rápida" ]
     },
     "sponsors": {

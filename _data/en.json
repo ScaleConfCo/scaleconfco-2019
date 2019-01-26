@@ -1,7 +1,7 @@
 {
     "nav": [
         "Buy a Ticket",
-        "CFP",
+        "Lightning Talk",
         "More",
         "Become a sponsor",
         "Venue",
@@ -67,7 +67,7 @@
     },
     "cfp": {
         "title": "Our CFP is open",
-        "description": "Come and share your knowledge",
+        "description": "Come and share your knowledge. Lightning Talks reserved for colombian citizens or latinos living in Colombia.",
         "buttons": [ "Submit a talk", "Submit a lightning talk" ]
     },
     "sponsors": {
