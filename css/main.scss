@@ -10,6 +10,14 @@ $white: #ffffff;
 $gray: #555555;
 
 
+@mixin icon($name, $x) {
+    background-position-x: $x;
+    &.white {
+        background-position-x: $x - 355px;
+    }
+}
+
+
 body, p {
     margin: 0;
     padding: 0;
@@ -59,35 +67,28 @@ h2 {
     font-weight: bold;
 }
 .social {
-    margin: 1.5rem 0 2rem;
+    margin: 0rem 0 2rem;
     display: flex;
     justify-content: center;
 }
 .icon {
-    margin: 0.4rem;
-    padding: 1rem;
-    line-height: 0;
-    font-size: 0;
+    background-image: url('../images/social/social.png');
     background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
+    background-position-y: -60px;
     transition: 0.1s;
-    height: 2.4rem;
-    width: 2.4rem;
+    height: 60px;
+    width: 60px;
+    zoom: 0.6;
+    -moz-transform: scale(0.6);
+    overflow: hidden;
+    display: inline-block;
+    &.flickr { @include icon( flickr, 0px ); }
+    &.instagram { @include icon( instagram, -71px ); }
+    &.facebook { @include icon( facebook, -141px ); }
+    &.twitter { @include icon( twitter, -213px ); }
+    &.website { @include icon( website, -284px ); }
     &:hover {
-        background-position: center top;
-    }
-    &.facebook {
-        background-image: url('../images/social/facebook.png');
-    }
-    &.twitter {
-        background-image: url('../images/social/twitter.png');
-    }
-    &.instagram {
-        background-image: url('../images/social/instagram.png');
-    }
-    &.flickr {
-        background-image: url('../images/social/flickr.png');
+        background-position-y: 0px;
     }
 }
 
