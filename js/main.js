@@ -15,13 +15,19 @@ window.addEventListener("load", function(event) {
     drawSVG( 'header.welcome .svg-name path' );
 });
 
-// Mobile Navigation
 (function () {
+    // Mobile Navigation
     var nav_toggle = document.querySelector('.nav-toggle');
     var nav = document.querySelector('.nav');
     nav_toggle.addEventListener('click', function(e) {
         this.classList.toggle('opened');
         nav.classList.toggle('show');
+    });
+
+    // Desktop Navigation
+    var dropdown = document.querySelector('nav ul li.dropdown');
+    dropdown.addEventListener('click', function(e) {
+        this.classList.toggle('show');
     });
 })();
 

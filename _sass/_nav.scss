@@ -102,9 +102,16 @@ nav {
                         -moz-transform: rotate(180deg);
                     }
                 }
-                &:hover {
+                &.show {
                     ul {
                         @include animation_show_item;
+                    }
+                    > span {
+                        color: $green;
+                        &:after {
+                            transform: rotate(0deg);
+                            -moz-transform: rotate(0deg);
+                        }
                     }
                 }
                 ul {
