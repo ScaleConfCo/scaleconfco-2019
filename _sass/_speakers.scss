@@ -88,6 +88,17 @@ section.speakers {
 }
 
 /*   Responsive Media Queries   */
+@media screen and (max-width: 850px) {
+    section.speakers {
+        div.container {
+            > div {
+                .speaker {
+                    flex-basis: (100 / 4) * 1%;
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width: 768px) {
     section.speakers {
         svg:not(.title) {
@@ -96,14 +107,24 @@ section.speakers {
         }
     }
 }
+@media screen and (max-width: 600px) {
+    section.speakers {
+        div.container {
+            > div {
+                .speaker {
+                    flex-basis: (100 / 3) * 1%;
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width: 440px) {
     section.speakers {
         div.container {
             margin: 3rem auto;
-            div {
-                a {
-                    display: block;
-                    margin: 1rem 2rem;
+            > div {
+                .speaker {
+                    flex-basis: (100 / 2) * 1%;
                 }
             }
         }
