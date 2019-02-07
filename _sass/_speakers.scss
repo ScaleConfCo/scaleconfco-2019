@@ -1,11 +1,13 @@
 section.speakers {
-    background-color: $blue-darkest;
-    margin: 0;
-    padding: 0 15%;
-    padding-bottom: 2rem;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: $purple_dark;
+    padding: 0;
+    margin-bottom: 5rem;
     svg {
-        margin-bottom: 1rem;
+        fill: $white;
+        stroke: $white;
+        margin: -1px;
         text {
             text-anchor: middle;
             font-size: 1px;
@@ -13,7 +15,7 @@ section.speakers {
             font-weight: bolder;
             text-transform: uppercase;
             stroke-width: .015;
-            stroke: $green;
+            stroke: $white;
             &:first-child {
                 fill: none;
             }
@@ -22,37 +24,64 @@ section.speakers {
             }
         }
     }
-    > div{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .speaker {
-        max-width: 40%;
-        padding: 0 1%;
-        text-align: center;
-        flex: 0 0 19%;
-        .speakerImg {
-            max-width: 100%;
-            margin-top: 1rem;
-        }
-        .speakerName {
-            color: $green;
-            font-size: 1.1rem;
-            margin-top: 0.2rem;
-            display: inline-flex;
-            padding: 0 1rem;
-        }
-        .speakerDescription {
-            min-height: 4rem;
-            color: $white;
-        }
-        a {
-            &.speakerTwitter {
-                float: right;
-                position: relative;
-                top: -1.9rem;
+    div.container {
+        margin: 5rem auto;
+        > div {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            position: relative;
+            margin-top: 2rem;
+            .speaker {
+                padding: 0;
+                flex-grow: 0;
+                flex-shrink: 1;
+                flex-basis: 20%;
+                margin-bottom: 1rem;
+                p {
+                    color: $white;
+                    text-align: center;
+                    font-weight: 100;
+                    padding: 0 1rem;
+                }
+                &-name {
+                    font-size: 1rem;
+                    margin-top: 0.5rem;
+                }
+                &-description {
+                    font-size: 0.8rem;
+                }
+                &-img {
+                    position: relative;
+                    padding-top: 80%;
+                    margin: 0 10% 1rem;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border-radius: 100%;
+                    transition: 0.5s;
+                    &-social {
+                        top: 0;
+                        bottom: 0;
+                        display: flex;
+                        position: absolute;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 0.5s;
+                    }
+                    &:hover {
+                        background-color: $gray;
+                        background-blend-mode: multiply;
+                        .speaker-img-social {
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
             }
         }
     }
@@ -61,32 +90,21 @@ section.speakers {
 /*   Responsive Media Queries   */
 @media screen and (max-width: 768px) {
     section.speakers {
-        .speaker {
-            flex-basis: 33.33%;
-            max-width: 33.33%;
-            margin: 0 auto;
-            padding-bottom: 2rem;
-            .speakerDescription {
-                min-height: 6.5rem;
-            }
+        svg:not(.title) {
+            bottom: 30px;
+            height: 30px;
         }
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 440px) {
     section.speakers {
-        .speaker {
-            flex-basis: 100%;
-            max-width: 50%;
-        }
-    }
-}
-@media screen and (max-width: 400px) {
-    section.speakers {
-        .speaker {
-            flex-basis: 100%;
-            max-width: 100%;
-            .speakerDescription {
-                min-height: 2rem;
+        div.container {
+            margin: 3rem auto;
+            div {
+                a {
+                    display: block;
+                    margin: 1rem 2rem;
+                }
             }
         }
     }

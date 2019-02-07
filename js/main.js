@@ -1,3 +1,4 @@
+// Header Animation
 window.addEventListener("load", function(event) {
     function drawSVG( selector ) {
         var paths = document.querySelectorAll( selector );
@@ -14,6 +15,7 @@ window.addEventListener("load", function(event) {
     drawSVG( 'header.welcome .svg-name path' );
 });
 
+// Mobile Navigation
 (function () {
     var nav_toggle = document.querySelector('.nav-toggle');
     var nav = document.querySelector('.nav');
@@ -23,6 +25,7 @@ window.addEventListener("load", function(event) {
     });
 })();
 
+// Agenda 
 function showMore(selfId, id) {
     document.getElementById(selfId).style.display = "none";
     document.getElementById(id).style.display = "block";
@@ -32,6 +35,7 @@ function showLess(selfId, id) {
     document.getElementById(id).style.display = "block";
 }
 
+// Google Map
 function initMap() {
     var markers = [
         {latlng: {lat: 6.264524, lng: -75.566549}, title: 'RutaN Medellin', address: "Calle 67 Nº 52-20"},
