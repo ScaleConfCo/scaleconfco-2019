@@ -13,7 +13,8 @@
         "-v 2.0.17",
         "-v 2.0.18",
         "-v 2.0.18 Videos",
-        "Speakers"
+        "Speakers",
+        "Opportunity Grant"
     ],
     "date": "May 17 - 18th 2019",
     "tickets": "Buy your tickets",
@@ -35,8 +36,10 @@
     "speakers": "Speakers",
     "code": {
         "title": "Code of Conduct",
-        "first": "A primary goal of ScaleConf Colombia is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible.",
-        "second": "As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior. We invite all those who participate in ScaleConf Colombia to help us create safe and positive experiences for everyone.",
+        "texts": [
+            "A primary goal of ScaleConf Colombia is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible.",
+            "As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior. We invite all those who participate in ScaleConf Colombia to help us create safe and positive experiences for everyone."
+        ],
         "button": "Read our Code of Conduct"
     },
     "footer": {
@@ -83,6 +86,17 @@
             "Our venue RutaN is accessible from the surrounding three streets. If you arrive via Carrera 55, you will find the ramp on the left side facing the building. RutaN has bathrooms on the first floor with accessible stalls. Our registration is at table level. Our event is on the first floor. Our lobby area does get crowded in between breaks. Our speaker lounge is on the second floor and is accessible by elevator.",
             "Our official hotel, el Diez Hotel, has a ramp on the side of the entrance and elevators to the room. The Diez Hotel has accessible rooms.",
             "Our closing event venue has not been confirmed as of yet. If you have further questions, please contact us at hola [a] scaleconfco.com"
+        ]
+    },
+    "scholarship": {
+        "title": "Opportunity Grant",
+        "texts": [
+            "We are constantly looking for ways to make the web development community more inclusive, and our opportunity grant program, which covers the cost of a full ScaleConf Colombia ticket is an important part of that effort.",
+            "This scholarship is open to any person that self-identifies as part of an underpresented group in technology and is looking for an opportunity to grow."
+        ],
+        "buttons": [
+            "I want to apply!",
+            "I want to sponsor!"
         ]
     }
 }
