@@ -73,7 +73,7 @@ section.speakers {
                         visibility: hidden;
                         transition: 0.5s;
                     }
-                    &:hover {
+                    &:hover:not(.default) {
                         background-color: $gray;
                         background-blend-mode: multiply;
                         .speaker-img-social {
