@@ -1,5 +1,4 @@
-section.code,
-section.accessibility {
+section.text-section {
     display: flex;
     flex-direction: column;
     padding: 3rem 0;
@@ -26,8 +25,25 @@ section.accessibility {
             display: flex;
             margin-bottom: 0.7rem;
             color: $blue-darkest;
+        }
+        > div {
+            margin-top: 1rem;
+            text-align: center;
             a {
-                margin: 2rem auto 0;
+                margin: 2rem 1rem 0;
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    section.text-section {
+        div {
+            > div {
+                margin-top: 2rem;
+                a {
+                    display: block;
+                    margin: 1rem 1rem 0;
+                }
             }
         }
     }

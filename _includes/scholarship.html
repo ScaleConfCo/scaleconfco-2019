@@ -1,0 +1,13 @@
+{% assign t = site.data.[page.lang].scholarship %}
+<section class="container text-section" id="scholarship">
+    {% include title.html title=t.title %}
+    <div>
+        {% for text in t.texts %}
+            <p>{{ text }}</p>
+        {% endfor %}
+        <div>
+            <a href="https://becas.scaleconfco.com/" class="button blueButton" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'Scholarship Apply');">{{ t.buttons[0] }}</a>
+            <a href="https://tickets.scaleconfco.com/" class="button blueButton" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'Scholarship Sponsor');">{{ t.buttons[1] }}</a>
+        </div>
+    </div>
+</section>

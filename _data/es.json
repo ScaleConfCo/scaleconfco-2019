@@ -13,7 +13,8 @@
         "-v 2.0.17",
         "-v 2.0.18",
         "2018 Videos",
-        "Speakers"
+        "Speakers",
+        "Becas de Oportunidad"
     ],
     "date": "Mayo 17 - 18 2019",
     "tickets": "Reserva ahora tu entrada",
@@ -35,8 +36,10 @@
     "speakers": "Speakers",
     "code": {
         "title": "Código de Conducta",
-        "first": "Un objetivo principal de ScaleConf Colombia es incluir a la mayor cantidad de contribuyentes, con los perfiles más variados y diversos posibles.",
-        "second": "Como tal, nos comprometemos a proporcionar un entorno amigable, seguro y acogedor para todos, independientemente de su sexo, orientación sexual, capacidad, origen étnico, nivel socioeconómico y religión (o la falta de ella). Este código de conducta describe nuestras expectativas para todos aquellos que participan en nuestra comunidad, así como también las consecuencias de un comportamiento inaceptable. Invitamos a todos los que participan en ScaleConf Colombia a que nos ayuden a crear experiencias seguras y positivas para todos.",
+        "texts": [
+            "Un objetivo principal de ScaleConf Colombia es incluir a la mayor cantidad de contribuyentes, con los perfiles más variados y diversos posibles.",
+            "Como tal, nos comprometemos a proporcionar un entorno amigable, seguro y acogedor para todos, independientemente de su sexo, orientación sexual, capacidad, origen étnico, nivel socioeconómico y religión (o la falta de ella). Este código de conducta describe nuestras expectativas para todos aquellos que participan en nuestra comunidad, así como también las consecuencias de un comportamiento inaceptable. Invitamos a todos los que participan en ScaleConf Colombia a que nos ayuden a crear experiencias seguras y positivas para todos."
+        ],
         "button": "Lee nuestro Código de Conducta"
     },
     "footer": {
@@ -83,6 +86,17 @@
             "Nuestro lugar de conferencias RutaN es accesible desde las 3 calles que lo rodean. Si usted llega por la Carrera 55 podrá encontrar una rampa en el lado izquierdo del edificio. RutaN tiene baños en el primer piso con puestos accesibles. Nuestro registro está a nivel de mesa. Nuestro evento es en el primer piso. Nuestra zona del vestíbulo se llena en los descansos. Nuestro salón de conferencistas esta en el segundo piso y es accesible por elevador.",
             "Nuestro hotel principal, el Diez Hotel, tiene rampa al lado de la entrada y elevadores a los cuartos. El Diez Hotel tiene cuartos accesibles.",
             "Nuestro lugar para el evento de cierre aún no ha sido confirmado. Si usted tiene dudas, por favor contactese con nosotros a hola [a] scaleconfco.com"
+        ]
+    },
+    "scholarship": {
+        "title": "Becas de Oportunidad",
+        "texts": [
+            "Constantemente estamos buscando maneras para hacer más inclusiva a la comunidad de desarrollo, y nuestro programa de becas de oportunidad, que cubre el costo de un boleto para ScaleConf Colombia, es una parte importante de esta iniciativa.",
+            "Estas becas están abiertas a cualquier persona que se identifique como parte de un grupo subrepresentado en tecnología y esté buscando una oportunidad para crecer."
+        ],
+        "buttons": [
+            "¡Quiero aplicar!",
+            "¡Quiero patrocinar una beca!"
         ]
     }
 }

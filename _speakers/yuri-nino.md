@@ -2,7 +2,7 @@
 slug: yuri-nino
 name: Yury Niño
 position: Software Engineer
-company: Scotiabank Colpatria
+company: Grupodot
 twitter: yurynino
 photo: yuri-nino.jpg
 title: "Chaos Engineering: Injecting failure for building resilience in systems."
