@@ -1,0 +1,55 @@
+<section class="agenda" id="agenda">
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="50" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path class="triangle" d="M0 0 L100 100 L100 0 Z"></path>
+    </svg>
+
+    <div class="container">
+        {% include title.html title="Agenda" %}
+
+        {% for day in site.data.agenda %}
+            <h3>{{ day.day }} - {{ day.date }}</h3>
+            <ul>
+                {% for track in day.tracks %}
+                    {% if track.lightning %}
+                        {% comment %} Lightning talks placeholder {% endcomment %}
+                        <li class="track">
+                            <div class="track-info">
+                                <p class="track-info-time">{{ track.hour }}</p>
+                                <p class="track-info-title">Available - {{ track.title }}</p>
+                            </div>
+                        </li>
+                    {% elsif track.speaker %}
+                        {% comment %} Talks track style {% endcomment %}
+                        <li class="track collapsable">
+                            <div class="track-info">
+                                <p class="track-info-time">{{ track.hour }}</p>
+                                <p class="track-info-title">{{ track.title }}</p>
+                                <p class="track-info-collapse">
+                                    <span onclick="toggleInfo(this)">+</span>
+                                </p>
+                            </div>
+                            <div class="track-details">
+                                <p class="track-details-speaker">{{ track.speaker }}</p>
+                                {% for text in track.abstract %}
+                                    <p>{{ text }}</p>
+                                {% endfor %}
+                            </div>
+                        </li>
+                    {% else %}
+                        {% comment %} Breaks, transport and anything else {% endcomment %}
+                        <li class="track">
+                            <div class="track-info">
+                                <p class="track-info-time">{{ track.hour }}</p>
+                                <p class="track-info-title">{{ track.title }}</p>
+                            </div>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="50" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path class="triangle" d="M0 100 L100 100 L100 0 Z"></path>
+    </svg>
+</section>

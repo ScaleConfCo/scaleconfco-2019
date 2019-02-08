@@ -1,0 +1,96 @@
+section.agenda {
+    display: flex;
+    flex-direction: column;
+    background-color: $purple_dark;
+    padding: 0;
+    margin-bottom: 5rem;
+    svg {
+        fill: $white;
+        stroke: $white;
+        margin: -1px;
+        text {
+            text-anchor: middle;
+            font-size: 1px;
+            font-family: inherit;
+            font-weight: bolder;
+            text-transform: uppercase;
+            stroke-width: .015;
+            stroke: $white;
+            &:first-child {
+                fill: none;
+            }
+            &:last-child {
+                fill: $blue-darkest;
+            }
+        }
+    }
+    div.container {
+        margin: 5rem auto;
+        color: $white;
+        ul {
+            list-style: none;
+            border-bottom: 5px solid $green;
+            margin: 0;
+            margin-bottom: 5rem;
+            padding: 0;
+            .track {
+                border-top: 1px solid $green;
+                padding: 1.5rem 0;
+                p {
+                    color: $white;
+                }
+                &-info {
+                    display: flex;
+                    flex-direction: row;
+                    &-time {
+                        flex-basis: 15%;
+                    }
+                    &-title {
+                        flex-basis: 80%;
+                    }
+                    &-collapse {
+                        flex-basis: 5%;
+                        text-align: right;
+                        span {
+                            color: $green;
+                            cursor: pointer;
+                            font-weight: bolder;
+                            padding: 10px;
+                            &:hover {
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+                &.active {
+                    .track-details {
+                        height: auto;
+                        padding-top: 1rem;
+                        visibility: visible;
+                    }
+                }
+                &-details {
+                    height: 0;
+                    padding-top: 0;
+                    padding-left: 15%;
+                    font-weight: 100;
+                    overflow: hidden;
+                    visibility: hidden;
+                    &-speaker {
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*   Responsive Media Queries   */
+@media screen and (max-width: 768px) {
+    section.agenda {
+        svg:not(.title) {
+            bottom: 30px;
+            height: 30px;
+        }
+    }
+}
