@@ -31,7 +31,18 @@ window.addEventListener("load", function(event) {
     });
 })();
 
-// Agenda 
+// Agenda
+var getClosest = function (elem, selector) {
+    for ( ; elem && elem !== document; elem = elem.parentNode ) {
+        if ( elem.matches( selector ) ) return elem;
+    }
+    return null;
+};
+function toggleInfo(e) {
+    var collapsable = getClosest( e, '.collapsable' );
+    collapsable.classList.toggle('active');
+    e.innerText == '+' ? e.innerText = '–' : e.innerText = '+';
+}
 function showMore(selfId, id) {
     document.getElementById(selfId).style.display = "none";
     document.getElementById(id).style.display = "block";

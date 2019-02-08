@@ -1,0 +1,242 @@
+[
+    {
+        "day": "Day 1",
+        "date": "May 17",
+        "tracks": [
+            {
+                "hour": "8:20 AM",
+                "title": "🚌 Bus leaves to RutaN",
+                "abstract": "Bus leaves behind the Diez Hotel (Carrera 35)"
+            },
+            {
+                "hour": "8:45 AM",
+                "title": "🎟 Registration"
+            },
+            {
+                "hour": "9:30 AM",
+                "title": "Opening remarks & raffle"
+            },
+            {
+                "hour": "9:50 AM",
+                "title": "One Small Step",
+                "speaker": "Katrina Owens",
+                "abstract": [
+                    "Refactoring sometimes devolves into an appalling mess. You're chasing a broken test suite, and every change just makes it worse. At other times it's a slow, controlled process culminating in dreadful design.",
+                    "This talk presents an end-to-end refactoring that demonstrates simple strategies to avoid such misadventures."
+                ]
+            },
+            {
+                "hour": "10:25 AM",
+                "title": "Consistency without Clocks: The FaunaDB Distributed Transaction Protocol",
+                "speaker": "Jeferson David Ossa",
+                "abstract": [
+                    "FaunaDB is a distributed relational NoSQL, ACID-compliant database with strict serializability that does not rely on clock synchronization to maintain consistency.  In this talk we are going to explore Fauna's distributed transaction protocol to realize how they do it."
+                ]
+            },
+            {
+                "hour": "11:00 AM",
+                "title": "☕ 🥐 Coffee / Snack Break"
+            },
+            {
+                "hour": "11:25 AM",
+                "title": "Hunting Malicious TLS Certificates with Deep Neural Networks",
+                "speaker": "Luis David Camacho",
+                "abstract": [
+                    "Cybercriminals and security industry have been racing to defeat each other, encryption has become one of the most important tools against cybercrime and attackers found a way to turn it in their favor. In this talk we'll show you how by using DNN we're able to identify an abused web certificate."
+                ]
+            },
+            {
+                "hour": "12:00 PM",
+                "title": "Improving System Observability with Distributed Tracing",
+                "speaker": "Chirag Aggarwal",
+                "abstract": [
+                    "Modern services are often implemented as large-scale distributed systems. Due to their complexity, these systems fail in unique ways, debugging which is no simpler than finding a needle in a haystack. In this talk, we'll discuss the value that distributed tracing brings in simplifying the problem."
+                ]
+            },
+            {
+                "hour": "12:35 PM",
+                "title": "📸 Conference Photo"
+            },
+            {
+                "hour": "12:55 PM",
+                "title": "Lunch"
+            },
+            {
+                "hour": "2:15 PM",
+                "title": "Autoscaling a practical case, the four questions to help you implement it (Why, what, how and when)",
+                "speaker": "Alejandro Calderon",
+                "abstract": [
+                    "Autoscaling is great for user experience, supporting infrastructure failures and  to keep up with your system load, implemented incorrectly could lead to cost and efficiency problems. By studying real case scenarios, participants will learn how to implement it and use ML to take it to the next level."
+                ]
+            },
+            {
+                "lightning": true,
+                "hour": "2:50 PM",
+                "title": "Lightning Talk"
+            },
+            {
+                "lightning": true,
+                "hour": "3:30 PM",
+                "title": "Lightning Talk"
+            },
+            {
+                "hour": "3:30 PM",
+                "title": "The Linear Algebra of Deep Learning",
+                "speaker": "Elizabeth Ramirez",
+                "abstract": [
+                    "The sound of unavoidability: Most of the pieces that make up a Neural Network, no matter how complex or nonlinear appears to be, are based on Linear Algebra."
+                ]
+            },
+            {
+                "hour": "4:05 PM",
+                "title": "☕ 🥐 Coffee / Snack Break"
+            },
+            {
+                "lightning": true,
+                "hour": "4:20 PM",
+                "title": "Lightning Talk"
+            },
+            {
+                "hour": "4:35 PM",
+                "title": "Behind the scenes: Running Critical Services @ Netflix:  Historia contada por un Ingeniero Colombiano",
+                "speaker": "Manuel Correa",
+                "abstract": [
+                    "At Netflix, the playback license team is responsible for one of the most critical services in the playback experience. In this talk, you will learn the devops and SRE practices used by the team to ensure the service is available every time a customer hits Play around the world. I will cover how the team implements and manages traffic, continuous deployment, and moving to gRPC as the de-facto IPC protocol. I will also share my journey as a software engineer and what skills are needed on teams operating critical services."
+                ]
+            },
+            {
+                "hour": "5:10 PM",
+                "title": "It takes a Village to Raise a Production System: Making on-call human-scale with Observability and Trust",
+                "speaker": "Chris Sun",
+                "abstract": [
+                    "Would you believe a team where all engineers go on-call, even a front-end web dev (me!)? This is the infrequently told story of how non-dreadful on-call can be, and the surprising positive side-effects to technical decision-making and communication when everyone is responsible for production."
+                ]
+            },
+            {
+                "hour": "5:45 PM",
+                "title": "Closing remarks"
+            },
+            {
+                "hour": "5:55 PM",
+                "title": "👋 End"
+            },
+            {
+                "hour": "6:05 PM",
+                "title": "🚌 Bus leaves to hotel"
+            }
+        ]
+    },
+    {
+        "day": "Day 2",
+        "date": "May 18",
+        "tracks": [
+            {
+                "hour": "8:30 AM",
+                "title": "🚌 Bus leaves to RutaN",
+                "abstract": "Bus leaves behind the Diez Hotel (Carrera 35)"
+            },
+            {
+                "hour": "9:30 AM",
+                "title": "Opening remarks & raffle"
+            },
+            {
+                "hour": "9:50 AM",
+                "title": "",
+                "speaker": "Camilo Aguilar",
+                "abstract": []
+            },
+            {
+                "hour": "10:25 AM",
+                "title": "Data corrupting architectures we know and love",
+                "speaker": "Sean T Allen",
+                "abstract": [
+                    "We can’t even do concurrent data access right, what makes us think we can do distributed data access? Want to learn how your favorite scaling patterns can lead to corrupt data? Want to learn a better way? I'm here to teach you one."
+                ]
+            },
+            {
+                "hour": "11:00 AM",
+                "title": "☕ 🥐 Coffee / Snack Break"
+            },
+            {
+                "hour": "11:25 AM",
+                "title": "Chaos Engineering: Injecting failure for building resilience in systems.",
+                "speaker": "Yury Niño",
+                "abstract": [
+                    "In a distributed world we all depend on the distributed systems more than ever. As these systems become more complex, the failures are much harder to predict. Chaos Engineering introduces the injection of failures as a discipline for building confidence in the resilience capability of the systems."
+                ]
+            },
+            {
+                "hour": "12:00 PM",
+                "title": "How we built a global search engine for genetic data",
+                "speaker": "Miro Cupak",
+                "abstract": [
+                    "In this session, we tell the story of how we built the world's largest search engine for human genetic data, and what we learned in the process."
+                ]
+            },
+            {
+                "hour": "12:35 PM",
+                "title": "Diving into Merkle Trees",
+                "speaker": "Pedro Tavares",
+                "abstract": [
+                    "Merkle Trees are especially useful in distributed, peer-to-peer systems where the same data should exist in multiple places. Let's learn how to detect inconsistencies between trees and reduce the amount of transferred data enabling peer-to-peer file sharing by building our own tree!"
+                ]
+            },
+            {
+                "hour": "1:10 PM",
+                "title": "Lunch"
+            },
+            {
+                "hour": "2:30 PM",
+                "title": "The Art of Humanizing Pull Requests (PR’s)",
+                "speaker": "Ankita Kulkarni",
+                "abstract": [
+                    "Code reviews are an important part of a developer’s life. It’s very easy to perform code reviews, but hard to do it with empathy. In today’s online world, online criticism can be misinterpreted easily. In this talk, we will go through how to give constructive feedback & respond to one using empathy."
+                ]
+            },
+            {
+                "hour": "3:05 PM",
+                "title": "💥 Ice Breaker"
+            },
+            {
+                "hour": "3:25 PM",
+                "title": "Deploying hybrid topologies with k8s and Envoy: a look at service discovery",
+                "speaker": "Jose Nino & Lita Cho",
+                "abstract": [
+                    "New software in production comes with a lot of risks, especially for companies with high availability requirements. However, it's possible to make significant infrastructure changes while maintaining your company's reliability. This talk will focus on deploying hybrid topologies with K8s and envoy."
+                ]
+            },
+            {
+                "hour": "4:00 PM",
+                "title": "☕ 🥐 Coffee / Snack Break"
+            },
+            {
+                "hour": "4:20 PM",
+                "title": "A Practical Introduction to Productionizing NLP Models",
+                "speaker": "Brendon Villalobos",
+                "abstract": [
+                    "It's exciting to create Deep Learning models that can interpret natural language, but resource-greedy NLP models can bottleneck performance in your app. This talk is a practical introduction to productionizing NLP models from training through deployment, with tips to avoid common pitfalls."
+                ]
+            },
+            {
+                "hour": "4:55 PM",
+                "title": "Observability and performance analysis with BPF",
+                "speaker": "David Calavera",
+                "abstract": [
+                    "BPF is a virtual machine inside the Linux Kernel that provides secure, and high performant observability. BPF is changing how engineers analyze and observe programs running in production. This talk will challenge the audience to explore the Linux Kernel ways that they never thought possible before."
+                ]
+            },
+            {
+                "hour": "5:30 PM",
+                "title": "Closing remarks"
+            },
+            {
+                "hour": "5:40 PM",
+                "title": "👋 End"
+            },
+            {
+                "hour": "5:50 PM",
+                "title": "🚌 Bus leaves to closing event / hotel"
+            }
+        ]
+    }
+]

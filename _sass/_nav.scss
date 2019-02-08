@@ -210,6 +210,11 @@ nav {
                 @include animation_show_item;
             }
         }
+        &:not(.show) {
+            ul li.dropdown ul {
+                display: none;
+            }
+        }
         &.nav-mobile {
             display: block;
             position: absolute;
