@@ -1,10 +1,9 @@
 ---
 ---
 
-$blue-darkest: #1D2152;
 $blue-lighter: #0099F7;
-$purple_dark: #1d2152;
-$purple_light: #262b59;
+$purple-dark: #1d2152;
+$purple-light: #262b59;
 $green: #3DF9AD;
 $white: #ffffff;
 $gray: #555555;
@@ -54,12 +53,12 @@ a {
         background-color: $blue-lighter;
         &:hover {
             background-color: $green;
-            color: $blue-darkest;
+            color: $purple-dark;
         }
     }
 }
 h2 {
-    color: $blue-darkest;
+    color: $purple-dark;
     margin-bottom: 2rem;
     font-size: 1.5rem;
 }

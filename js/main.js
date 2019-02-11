@@ -43,14 +43,6 @@ function toggleInfo(e) {
     collapsable.classList.toggle('active');
     e.innerText == '+' ? e.innerText = '–' : e.innerText = '+';
 }
-function showMore(selfId, id) {
-    document.getElementById(selfId).style.display = "none";
-    document.getElementById(id).style.display = "block";
-}
-function showLess(selfId, id) {
-    document.getElementById(selfId).style.display = "none";
-    document.getElementById(id).style.display = "block";
-}
 
 // Google Map
 function initMap() {

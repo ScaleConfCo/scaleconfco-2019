@@ -12,7 +12,7 @@
         "Sponsors",
         "-v 2.0.17",
         "-v 2.0.18",
-        "-v 2.0.18 Videos",
+        "Videos",
         "Speakers",
         "Opportunity Grant",
         "Agenda"
@@ -45,7 +45,7 @@
     },
     "footer": {
         "title": "Let’s stay in touch, follow us",
-        "question": "Got any questions?"
+        "question": "Questions?"
     },
     "seeMap": "See the map",
     "venue": {

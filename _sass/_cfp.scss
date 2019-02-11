@@ -1,7 +1,7 @@
 section.cfp {
     display: flex;
     flex-direction: column;
-    background-color: $purple_dark;
+    background-color: $purple-dark;
     padding: 0;
     margin-bottom: 5rem;
     svg {
@@ -20,7 +20,7 @@ section.cfp {
                 fill: none;
             }
             &:last-child {
-                fill: $blue-darkest;
+                fill: $purple-dark;
             }
         }
     }
