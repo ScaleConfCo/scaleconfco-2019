@@ -13,7 +13,7 @@
 
 nav {
     &.nav {
-        background-color: $purple_dark;
+        background-color: $purple-dark;
         position: fixed;
         right: 0;
         left: 0;
@@ -59,7 +59,7 @@ nav {
                     padding: 0.6rem 0.7rem;
                     &.active {
                         background-color: $white;
-                        color: $blue-darkest;
+                        color: $purple-dark;
                     }
                     &:hover {
                         color: $green;
@@ -68,7 +68,7 @@ nav {
                 &.sponsor-button {
                     background-color: $green;
                     border-radius: 20px;
-                    color: $blue-darkest;
+                    color: $purple-dark;
                     padding: 0.5rem 1.5rem;
                     transition: 0.2s;
                     &:hover {
@@ -116,7 +116,7 @@ nav {
                     background-color: $white;
                     box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
                     border-radius: 2px;
-                    color: $purple_dark;
+                    color: $purple-dark;
                     position: absolute;
                     flex-direction: column;
                     margin: 0.5rem 0 0 -4.5rem;
@@ -126,7 +126,7 @@ nav {
                     li {
                         margin: 0;
                         a {
-                            color: $purple_dark;
+                            color: $purple-dark;
                             display: block;
                             padding: 0.6rem 1.5rem;
                             &:hover {
@@ -200,7 +200,7 @@ nav {
 }
 
 /*   Responsive Media Queries   */
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1050px) {
     nav {
         &.nav {
             transition: 0.5s;

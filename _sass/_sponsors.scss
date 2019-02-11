@@ -10,7 +10,7 @@ section.sponsors {
             font-weight: bolder;
             text-transform: uppercase;
             stroke-width: .015;
-            stroke: $blue-darkest;
+            stroke: $purple-dark;
             &:first-child {
                 fill: none;
             }
@@ -23,7 +23,7 @@ section.sponsors {
         p {
             display: flex;
             margin-bottom: 0.7rem;
-            color: $blue-darkest;
+            color: $purple-dark;
             justify-content: center;
             a {
                 margin: 2rem auto 0;
@@ -39,7 +39,7 @@ section.sponsors {
                 line-height: 1.5rem;
                 margin: 0;
                 padding: 0;
-                color: $blue-darkest;
+                color: $purple-dark;
             }
             div.sponsors-list {
                 display: flex;
@@ -70,7 +70,7 @@ section.sponsors {
         .sponsor-button {
             background-color: $green;
             border-radius: 20px;
-            color: $blue-darkest;
+            color: $purple-dark;
             padding: 0.5rem 1.5rem;
             transition: 0.2s;
             &:hover {

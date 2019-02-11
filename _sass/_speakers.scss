@@ -1,7 +1,7 @@
 section.speakers {
     display: flex;
     flex-direction: column;
-    background-color: $purple_dark;
+    background-color: $purple-dark;
     padding: 0;
     svg {
         fill: $white;
@@ -19,7 +19,7 @@ section.speakers {
                 fill: none;
             }
             &:last-child {
-                fill: $blue-darkest;
+                fill: $purple-dark;
             }
         }
     }

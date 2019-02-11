@@ -26,7 +26,7 @@ section.venue {
             font-weight: bolder;
             text-transform: uppercase;
             stroke-width: .015;
-            stroke: $blue-darkest;
+            stroke: $purple-dark;
             &:first-child {
                 fill: none;
             }
@@ -38,7 +38,7 @@ section.venue {
     .venue-information {
         > p {
             margin-bottom: 0.7rem;
-            color: $blue-darkest;
+            color: $purple-dark;
             text-align: center;
         }
         > div {
@@ -49,7 +49,7 @@ section.venue {
                 width: 100%;
                 text-align: center;
                 h4 {
-                    color: $blue-darkest;
+                    color: $purple-dark;
                 }
                 h4, p {
                     margin: 0;

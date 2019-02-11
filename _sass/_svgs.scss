@@ -14,7 +14,7 @@ section {
         position: relative;
         top: 10px;
         .front {
-            fill: $blue-darkest;
+            fill: $purple-dark;
         }
         .shadow {
             fill: $blue-lighter;
@@ -23,7 +23,7 @@ section {
     .svg-code {
         position: relative;
         top: 0px;
-        background-color: $blue-darkest;
+        background-color: $purple-dark;
         .front {
             fill: $white;
         }
@@ -33,14 +33,14 @@ section {
     }
     .svg-buy {
         top: 10px;
-        fill: $blue-darkest;
+        fill: $purple-dark;
         background-color: $white;
         position: relative;
     }
     .svg-footer {
         position: relative;
         top: -1px;
-        background-color: $blue-darkest;
+        background-color: $purple-dark;
         .front {
             fill: $white;
         }
@@ -50,7 +50,7 @@ section {
     }
     .svg-clouds {
         fill: $white;
-        background-color: $blue-darkest;
+        background-color: $purple-dark;
         position: relative;
     }
     .svg-name {

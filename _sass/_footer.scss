@@ -17,7 +17,7 @@ footer {
         &.mail {
             color: $blue-lighter;
             &:hover {
-                color: $blue-darkest;
+                color: $purple-dark;
             }
         }
     }
@@ -25,7 +25,7 @@ footer {
         &.title {
             font-size: 1.3rem;
             font-weight: bold;
-            color: $blue-darkest;
+            color: $purple-dark;
         }
     }
 }

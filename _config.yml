@@ -19,7 +19,7 @@ sass:
 
 collections:
   speakers:
-    output: true
+    output: false
     permalink: /speaker/:slug.html
 
 defaults:

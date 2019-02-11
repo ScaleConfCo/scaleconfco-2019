@@ -1,5 +1,5 @@
 section.buy {
-    background-color: $blue-darkest;
+    background-color: $purple-dark;
     display: flex;
     flex-direction: column;
     padding: 3rem 15%;
@@ -18,7 +18,7 @@ section.buy {
                 fill: none;
             }
             &:last-child {
-                fill: $blue-darkest;
+                fill: $purple-dark;
             }
         }
     }
@@ -26,7 +26,7 @@ section.buy {
         p {
             display: flex;
             margin-bottom: 0.7rem;
-            color: $blue-darkest;
+            color: $purple-dark;
             text-align: center;
         }
     }

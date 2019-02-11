@@ -5,42 +5,57 @@
 
     <div class="container">
         {% include title.html title="Agenda" %}
-
         {% for day in site.data.agenda %}
             <h3>{{ day.day }} - {{ day.date }}</h3>
             <ul>
+                {% assign counter = 0 %}
                 {% for track in day.tracks %}
                     {% if track.lightning %}
                         {% comment %} Lightning talks placeholder {% endcomment %}
-                        <li class="track">
-                            <div class="track-info">
-                                <p class="track-info-time">{{ track.hour }}</p>
-                                <p class="track-info-title">Available - {{ track.title }}</p>
+                        <li class="track lightning">
+                            <div class="track-time">
+                                <p>{{ track.hour }}</p>
+                            </div>
+                            <div class="track-details">
+                                <p class="track-details-content-title">{{ track.title }}</p>
                             </div>
                         </li>
                     {% elsif track.speaker %}
                         {% comment %} Talks track style {% endcomment %}
-                        <li class="track collapsable">
-                            <div class="track-info">
-                                <p class="track-info-time">{{ track.hour }}</p>
-                                <p class="track-info-title">{{ track.title }}</p>
-                                <p class="track-info-collapse">
-                                    <span onclick="toggleInfo(this)">+</span>
-                                </p>
+                        {% if track.photo %}
+                            {% assign default = false %} {% assign picture = track.photo %}
+                        {% else %}
+                            {% assign default = true %} {% assign picture = "400.png" %}
+                        {% endif %}
+                        <li class="track collapsable{% cycle '', ' reverse' %}">
+                            <div class="track-time">
+                                <p>{{ track.hour }}</p>
                             </div>
                             <div class="track-details">
-                                <p class="track-details-speaker">{{ track.speaker }}</p>
-                                {% for text in track.abstract %}
-                                    <p>{{ text }}</p>
-                                {% endfor %}
+                                <div class="track-details-image">
+                                    <div style="background-image: url('/images/speakers/{{ picture }}');"></div>
+                                </div>
+                                <div class="track-details-content">
+                                    <p class="track-details-content-title">{{ track.title }}</p>
+                                    <p class="track-details-content-speaker">{{ track.speaker }}</p>
+                                    <p class="track-details-content-collapse" onclick="toggleInfo(this)">+</p>
+                                    <div class="track-details-content-abstract">
+                                        {% for text in track.abstract %}
+                                            <p>{{ text }}</p>
+                                        {% endfor %}
+                                    </div>
+                                </div>
                             </div>
                         </li>
                     {% else %}
                         {% comment %} Breaks, transport and anything else {% endcomment %}
-                        <li class="track">
-                            <div class="track-info">
-                                <p class="track-info-time">{{ track.hour }}</p>
-                                <p class="track-info-title">{{ track.title }}</p>
+                        <li class="break">
+                            <p class="break-time">{{ track.hour }}</p>
+                            <div class="break-emoji">
+                                {% include svg/icons/{{ track.emoji }} %}
+                            </div>
+                            <div class="break-title">
+                                <p>{{ track.title }}</p>
                             </div>
                         </li>
                     {% endif %}

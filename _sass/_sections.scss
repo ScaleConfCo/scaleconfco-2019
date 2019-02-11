@@ -11,7 +11,7 @@ section.text-section {
             font-weight: bolder;
             text-transform: uppercase;
             stroke-width: .015;
-            stroke: $blue-darkest;
+            stroke: $purple-dark;
             &:first-child {
                 fill: none;
             }
@@ -24,7 +24,7 @@ section.text-section {
         p {
             display: flex;
             margin-bottom: 0.7rem;
-            color: $blue-darkest;
+            color: $purple-dark;
         }
         > div {
             margin-top: 1rem;
