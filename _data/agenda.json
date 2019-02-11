@@ -230,6 +230,7 @@
                 "hour": "3:25 PM",
                 "title": "Deploying hybrid topologies with k8s and Envoy: a look at service discovery",
                 "speaker": "Jose Nino & Lita Cho",
+                "photo": "jose_nino-lita_cho.png",
                 "abstract": [
                     "New software in production comes with a lot of risks, especially for companies with high availability requirements. However, it's possible to make significant infrastructure changes while maintaining your company's reliability. This talk will focus on deploying hybrid topologies with K8s and envoy."
                 ]
