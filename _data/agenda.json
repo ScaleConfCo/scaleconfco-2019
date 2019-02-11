@@ -113,6 +113,7 @@
                 "hour": "4:35 PM",
                 "title": "Behind the scenes: Running Critical Services @ Netflix:  Historia contada por un Ingeniero Colombiano",
                 "speaker": "Manuel Correa",
+                "photo": "manuel-correa.jpg",
                 "abstract": [
                     "At Netflix, the playback license team is responsible for one of the most critical services in the playback experience. In this talk, you will learn the devops and SRE practices used by the team to ensure the service is available every time a customer hits Play around the world. I will cover how the team implements and manages traffic, continuous deployment, and moving to gRPC as the de-facto IPC protocol. I will also share my journey as a software engineer and what skills are needed on teams operating critical services."
                 ]
