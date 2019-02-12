@@ -3,6 +3,6 @@ slug: camilo-aguilar
 name: Camilo Aguilar
 position: Tech Lead
 company: Enigma Technologies, Inc.
-twitter: kytrinyx
+twitter: c4milo
 photo: camilo-aguilar.jpg
 ---
