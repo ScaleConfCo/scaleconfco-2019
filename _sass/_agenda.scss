@@ -101,6 +101,10 @@ section.agenda {
                     }
                     p {
                         color: $white;
+                        margin-bottom: 0.8rem;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
                     }
                     .track-time {
                         flex-basis: 46%;
@@ -135,6 +139,7 @@ section.agenda {
                                 height: 25px;
                                 bottom: 0;
                                 right: 0;
+                                margin: 0;
                                 border-top: 2px solid $green;
                                 border-left: 2px solid $green;
                                 text-align: center;

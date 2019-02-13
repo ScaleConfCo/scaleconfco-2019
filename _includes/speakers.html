@@ -17,7 +17,7 @@
                     {% assign picture = "400.png" %}
                     {% assign default = true %}
                 {% endif %}
-                <div class="speaker-img {% if default %}default{% endif %}" style="background-image: url('/images/speakers/{{ picture }}')">
+                <div class="speaker-img {% if default %}default{% endif %}" style="background-image: url('/images/speakers/{{ picture }}')" onclick="toggleSpeaker(this)">
                     <div class="speaker-img-social">
                         {% if speaker.twitter %}
                             <a href="https://www.twitter.com/{{ speaker.twitter }}/"><i class="icon white twitter" alt="{{ speaker.name }} twitter"></i></a>

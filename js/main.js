@@ -44,6 +44,9 @@ function toggleInfo(e) {
     e.innerText == '+' ? e.innerText = '–' : e.innerText = '+';
 }
 
+// Speakers
+function toggleSpeaker(e) { e.classList.toggle('active'); }
+
 // Google Map
 function initMap() {
     var markers = [
