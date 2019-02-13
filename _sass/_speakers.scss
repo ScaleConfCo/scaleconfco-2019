@@ -93,6 +93,16 @@ section.speakers {
             > div {
                 .speaker {
                     flex-basis: (100 / 4) * 1%;
+                    &-img {
+                        &.active {
+                            background-color: $gray;
+                            background-blend-mode: multiply;
+                            .speaker-img-social {
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                    }
                 }
             }
         }
