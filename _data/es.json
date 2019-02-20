@@ -15,7 +15,8 @@
         "Videos",
         "Speakers",
         "Becas de Oportunidad",
-        "Agenda"
+        "Agenda",
+        "Hotel"
     ],
     "date": "Mayo 17 - 18 2019",
     "tickets": "Reserva ahora tu entrada",
@@ -61,7 +62,7 @@
     },
     "hotel": {
         "title": "Hotel",
-        "first": "Nuestro principal hotel es el Diez Hotel, perfectamente ubicado en el corazón del vibrante barrio de El Poblado de Medellín. El hotel exhibe una mezcla única de arquitectura tradicional y moderna creada por algunos de los mejores artesanos locales.",
+        "first": "Nuestro principal hotel es el Diez Hotel, perfectamente ubicado en el corazón del vibrante barrio de El Poblado de Medellín. Ofrecemos servicio de bus en la mañana y en la noche hacia/desde RutaN. Revisa nuestra agenda para los horarios de salida de transporte. Asegúrese de editar la reserva para 1 persona (por defecto esta para 2 personas) para obtener la tarifa de $189,900 COP de la conferencia en el hotel.",
         "address": "Dirección",
         "hotel": {
             "name": "Diez Hotel Categoria Colombia",
