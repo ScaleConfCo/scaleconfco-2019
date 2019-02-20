@@ -15,7 +15,8 @@
         "Videos",
         "Speakers",
         "Opportunity Grant",
-        "Agenda"
+        "Agenda",
+        "Hotel"
     ],
     "date": "May 17 - 18th 2019",
     "tickets": "Buy your tickets",
@@ -61,7 +62,7 @@
     },
     "hotel": {
         "title": "Hotel",
-        "first": "Our principal hotel is the Diez Hotel, perfectly located in the heart of Medellín’s vibrant El Poblado neighborhood. The Hotel showcase a unique blend of traditional and modern architecture crafted by some of the finest local artisans.",
+        "first": "Our principal hotel is the Diez Hotel, perfectly located in the heart of Medellín’s vibrant El Poblado neighborhood. We offer bus service in the morning and the evening to/from RutaN. Check out our agenda for shuttle departure times. Make sure you edit the reservation to 1 person (defaults to 2 people) to get the conference hotel rate of $189,900 COP.",
         "address": "Address",
         "hotel": {
             "name": "Diez Hotel Categoria Colombia",
