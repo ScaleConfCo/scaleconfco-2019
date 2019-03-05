@@ -6,8 +6,9 @@
             {
                 "name": "Seven4n",
                 "website": "http://s4n.co/es-trabaja-con-nosotros",
-                "image": "seven4n"
-            },
+                "image": "seven4n",
+                "hiring": true
+            }
         ]
     },
     {
@@ -18,6 +19,12 @@
                 "name": "rutaN",
                 "website": "https://www.rutanmedellin.org",
                 "image": "rutan"
+            },
+            {
+                "name": "Huge",
+                "website": "https://www.hugeinc.com/contact/medellin",
+                "image": "huge",
+                "hiring": true
             }
         ]
     },
@@ -32,8 +39,13 @@
         "sponsors": [
             {
                 "name": "Endava",
-                "website": "http://www.endava.com/",
+                "website": "https://www.endava.com",
                 "image": "endava"
+            },
+            {
+                "name": "Monoku",
+                "website": "https://monoku.com",
+                "image": "monoku"
             }
         ]
     }
