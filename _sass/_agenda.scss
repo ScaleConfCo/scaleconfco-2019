@@ -157,6 +157,19 @@ section.agenda {
                             &-speaker {
                                 color: $green;
                                 font-size: 0.9rem;
+                                span {
+                                    a {
+                                        color: $green;
+                                    }
+                                    &:before {
+                                        content: '& ';
+                                    }
+                                    &:first-of-type {
+                                        &:before {
+                                            content: unset;
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
