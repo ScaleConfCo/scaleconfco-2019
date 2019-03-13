@@ -37,7 +37,11 @@
                                 </div>
                                 <div class="track-details-content">
                                     <p class="track-details-content-title">{{ track.title }}</p>
-                                    <p class="track-details-content-speaker">{{ track.speaker }}</p>
+                                    <p class="track-details-content-speaker">
+                                        {% for speaker in track.speaker %}
+                                            <span><a href="https://twitter.com/{{ speaker[1] }}">{{ speaker[0] }}</a></span>
+                                        {% endfor %}
+                                    </p>
                                     <p class="track-details-content-collapse" onclick="toggleInfo(this)">+</p>
                                     <div class="track-details-content-abstract">
                                         {% for text in track.abstract %}
