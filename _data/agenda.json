@@ -54,11 +54,11 @@
             },
             {
                 "hour": "12:00 PM",
-                "title": "Improving System Observability with Distributed Tracing",
-                "speaker": [["Chirag Aggarwal", "exagil"]],
-                "photo": "chirag-aggarwal.jpg",
+                "title": "Liberating distributed consensus",
+                "speaker": [["Heidi Howard", "heidiann360"]],
+                "photo": "heidi-howard.jpg",
                 "abstract": [
-                    "Modern services are often implemented as large-scale distributed systems. Due to their complexity, these systems fail in unique ways, debugging which is no simpler than finding a needle in a haystack. In this talk, we'll discuss the value that distributed tracing brings in simplifying the problem."
+                    "The ability to reach consensus between hosts, whether for addressing, primary election, locking, or coordination, is a fundamental necessity of modern distributed systems. The Paxos algorithm is at the heart of how we achieve distributed consensus today and as such has been the subject of extensive research to extend and optimise the algorithm for practical distributed systems. In the talk, we revisit the underlying theory behind Paxos, weakening its original requirements and generalising the algorithm. We demonstrate that Paxos is, in fact, a single point on a broad spectrum of approaches to consensus and conclude by arguing that other points on this spectrum offer a much-improved foundation for constructing scalable, resilient and high performance distributed systems."
                 ]
             },
             {
