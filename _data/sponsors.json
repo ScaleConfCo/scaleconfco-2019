@@ -25,6 +25,11 @@
                 "website": "https://www.hugeinc.com/contact/medellin",
                 "image": "huge",
                 "hiring": true
+            },
+            {
+                "name": "Lyft",
+                "website": "https://www.lyft.com/",
+                "image": "lyft"
             }
         ]
     },
@@ -46,6 +51,11 @@
                 "name": "Monoku",
                 "website": "https://monoku.com",
                 "image": "monoku"
+            },
+            {
+                "name": "Get On Board",
+                "website": "https://www.getonbrd.com/",
+                "image": "getonboard"
             }
         ]
     }
