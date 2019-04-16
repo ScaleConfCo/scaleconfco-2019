@@ -86,6 +86,9 @@ section.sponsors {
             &.gold .sponsor {
                 max-width: 15rem;
             }
+            &.silver .sponsor {
+                max-width: 11rem;
+            }
             &.bronze .sponsor {
                 max-width: 8rem;
                 margin: 0 1rem;
