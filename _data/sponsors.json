@@ -36,7 +36,13 @@
     {
         "name": "Silver",
         "slug": "silver",
-        "sponsors": []
+        "sponsors": [
+            {
+                "name": "PayU",
+                "website": "https://www.payulatam.com/co/",
+                "image": "payu"
+            }
+        ]
     },
     {
         "name": "Bronze",
