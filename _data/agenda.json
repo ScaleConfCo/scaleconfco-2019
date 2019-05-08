@@ -10,17 +10,17 @@
                 "abstract": "Bus leaves behind the Diez Hotel (Carrera 35)"
             },
             {
-                "hour": "8:45 AM",
+                "hour": "9:00 AM",
                 "title": "Registration",
                 "emoji": "1f3ab.svg"
             },
             {
-                "hour": "9:30 AM",
+                "hour": "9:45 AM",
                 "title": "Opening remarks & raffle",
                 "emoji": "1f4e3.svg"
             },
             {
-                "hour": "9:50 AM",
+                "hour": "10:05 AM",
                 "title": "One Small Step",
                 "speaker": [["Katrina Owens", "kytrinyx"]],
                 "photo": "katrina-owens.jpg",
@@ -30,7 +30,7 @@
                 ]
             },
             {
-                "hour": "10:25 AM",
+                "hour": "10:40 AM",
                 "title": "Consistency without Clocks: The FaunaDB Distributed Transaction Protocol",
                 "speaker": [["Jeferson David Ossa", "unyagami"]],
                 "photo": "jeferson-david-ossa.jpg",
@@ -39,12 +39,12 @@
                 ]
             },
             {
-                "hour": "11:00 AM",
+                "hour": "11:15 AM",
                 "title": "Coffee / Snack Break",
                 "emoji": "2615.svg"
             },
             {
-                "hour": "11:25 AM",
+                "hour": "11:40 AM",
                 "title": "Hunting Malicious TLS Certificates with Deep Neural Networks",
                 "speaker": [["Luis David Camacho", "luisdcamachog"]],
                 "photo": "luis-david-camacho.jpg",
@@ -53,7 +53,7 @@
                 ]
             },
             {
-                "hour": "12:00 PM",
+                "hour": "12:15 PM",
                 "title": "Liberating distributed consensus",
                 "speaker": [["Heidi Howard", "heidiann360"]],
                 "photo": "heidi-howard.jpg",
@@ -62,17 +62,17 @@
                 ]
             },
             {
-                "hour": "12:35 PM",
+                "hour": "12:50 PM",
                 "title": "Conference Photo",
                 "emoji": "1f4f7.svg"
             },
             {
-                "hour": "12:55 PM",
+                "hour": "1:10 PM",
                 "title": "Lunch",
                 "emoji": "1f372.svg"
             },
             {
-                "hour": "2:15 PM",
+                "hour": "2:30 PM",
                 "title": "Autoscaling a practical case, the four questions to help you implement it (Why, what, how and when)",
                 "speaker": [["Alejandro Calderon", "acaldervel"]],
                 "photo": "alejandro-calderon.jpg",
@@ -81,17 +81,16 @@
                 ]
             },
             {
-                "lightning": true,
-                "hour": "2:50 PM",
-                "title": "Lightning Talk"
+                "hour": "3:05 PM",
+                "title": "Practical Cryptography for Devops",
+                "speaker": [["Ely Alvarado", "elyalvarado"]],
+                "photo": "ely-alvarado.png",
+                "abstract": [
+                    "We use cryptography everyday in our tools, and sometimes it’s done so automatically that we don’t even know cryptography is being used. However many people doesn’t know the basic cryptography concepts being used, or when to choose one of them: hashing, signing, symmetric vs asymmetric encryption."
+                ]
             },
             {
-                "lightning": true,
-                "hour": "3:10 PM",
-                "title": "Lightning Talk"
-            },
-            {
-                "hour": "3:30 PM",
+                "hour": "3:25 PM",
                 "title": "The Linear Algebra of Deep Learning",
                 "speaker": [["Elizabeth Ramirez", "eramirem"]],
                 "photo": "elizabeth-ramirez.jpg",
@@ -100,26 +99,17 @@
                 ]
             },
             {
-                "hour": "4:05 PM",
+                "hour": "4:00 PM",
                 "title": "Coffee / Snack Break",
                 "emoji": "2615.svg"
             },
             {
                 "lightning": true,
-                "hour": "4:20 PM",
-                "title": "Lightning Talk"
+                "hour": "4:15 PM",
+                "title": "Lightning Talk - Social Project"
             },
             {
-                "hour": "4:35 PM",
-                "title": "Behind the scenes: Running Critical Services @ Netflix:  Historia contada por un Ingeniero Colombiano",
-                "speaker": [["Manuel Correa", "mcorreadev"]],
-                "photo": "manuel-correa.jpg",
-                "abstract": [
-                    "At Netflix, the playback license team is responsible for one of the most critical services in the playback experience. In this talk, you will learn the devops and SRE practices used by the team to ensure the service is available every time a customer hits Play around the world. I will cover how the team implements and manages traffic, continuous deployment, and moving to gRPC as the de-facto IPC protocol. I will also share my journey as a software engineer and what skills are needed on teams operating critical services."
-                ]
-            },
-            {
-                "hour": "5:10 PM",
+                "hour": "4:30 PM",
                 "title": "It takes a Village to Raise a Production System: Making on-call human-scale with Observability and Trust",
                 "speaker": [["Chris Sun", "daiyitastic"]],
                 "photo": "chris-sun.png",
@@ -128,17 +118,17 @@
                 ]
             },
             {
-                "hour": "5:45 PM",
+                "hour": "5:05 PM",
                 "title": "Closing remarks",
                 "emoji": "1f44b.svg"
             },
             {
-                "hour": "5:55 PM",
+                "hour": "5:15 PM",
                 "title": "End",
                 "emoji": "1f44b.svg"
             },
             {
-                "hour": "6:05 PM",
+                "hour": "5:25 PM",
                 "title": "Bus leaves to hotel",
                 "emoji": "1f68d.svg"
             }
@@ -155,23 +145,21 @@
                 "abstract": "Bus leaves behind the Diez Hotel (Carrera 35)"
             },
             {
-                "hour": "9:30 AM",
+                "hour": "9:45 AM",
                 "title": "Opening remarks & raffle",
                 "emoji": "1f4e3.svg"
             },
             {
-                "hour": "9:50 AM",
-                "title": "Life beyond the hype",
-                "speaker": [["Camilo Aguilar", "c4milo"]],
-                "photo": "camilo-aguilar.jpg",
+                "hour": "10:05 AM",
+                "title": "Behind the scenes: Running Critical Services @ Netflix:  Historia contada por un Ingeniero Colombiano",
+                "speaker": [["Manuel Correa", "mcorreadev"]],
+                "photo": "manuel-correa.jpg",
                 "abstract": [
-                    "When confronted with a new software project, we’re all faced with the same question: How do we deploy it? These days, we are constantly bombarded with options and often have little time to make informed and technically sound decisions.",
-                    "This talk will take you through my experience when faced with the same question at a highly regulated, Fortune 150 US bank, with 99.5% uptime requirements. We will go over technical and organizational constraints, the decision process, and the production rollout of the first distributed system running on containers at this bank.",
-                    "You will walk away understanding that tooling trends are not always the solution and that going back to first principles is often a more sensible approach."
+                    "At Netflix, the playback license team is responsible for one of the most critical services in the playback experience. In this talk, you will learn the devops and SRE practices used by the team to ensure the service is available every time a customer hits Play around the world. I will cover how the team implements and manages traffic, continuous deployment, and moving to gRPC as the de-facto IPC protocol. I will also share my journey as a software engineer and what skills are needed on teams operating critical services."
                 ]
             },
             {
-                "hour": "10:25 AM",
+                "hour": "10:40 AM",
                 "title": "Data corrupting architectures we know and love",
                 "speaker": [["Sean T Allen", "SeanTAllen"]],
                 "photo": "sean-t-allen.jpg",
@@ -180,12 +168,12 @@
                 ]
             },
             {
-                "hour": "11:00 AM",
+                "hour": "11:15 AM",
                 "title": "Coffee / Snack Break",
                 "emoji": "2615.svg"
             },
             {
-                "hour": "11:25 AM",
+                "hour": "11:40 AM",
                 "title": "Chaos Engineering: Injecting failure for building resilience in systems.",
                 "speaker": [["Yury Niño", "yurynino"]],
                 "photo": "yuri-nino.jpg",
@@ -194,16 +182,7 @@
                 ]
             },
             {
-                "hour": "12:00 PM",
-                "title": "How we built a global search engine for genetic data",
-                "speaker": [["Miro Cupak", "mirocupak"]],
-                "photo": "miro-cupak.jpg",
-                "abstract": [
-                    "In this session, we tell the story of how we built the world's largest search engine for human genetic data, and what we learned in the process."
-                ]
-            },
-            {
-                "hour": "12:35 PM",
+                "hour": "12:15 PM",
                 "title": "Diving into Merkle Trees",
                 "speaker": [["Pedro Tavares", "ordepdev"]],
                 "photo": "pedro-tavares.jpg",
@@ -212,12 +191,12 @@
                 ]
             },
             {
-                "hour": "1:10 PM",
+                "hour": "12:50 PM",
                 "title": "Lunch",
                 "emoji": "1f372.svg"
             },
             {
-                "hour": "2:30 PM",
+                "hour": "2:10 PM",
                 "title": "The Art of Humanizing Pull Requests (PR’s)",
                 "speaker": [["Ankita Kulkarni", "kulkarniankita9"]],
                 "photo": "ankita-kulkarni.png",
@@ -226,12 +205,12 @@
                 ]
             },
             {
-                "hour": "3:05 PM",
+                "hour": "2:45 PM",
                 "title": "Ice Breaker",
                 "emoji": "1f4a5.svg"
             },
             {
-                "hour": "3:25 PM",
+                "hour": "3:05 PM",
                 "title": "Deploying hybrid topologies with k8s and Envoy: a look at service discovery",
                 "speaker": [["Jose Nino", "junr03"], ["Lita Cho", "litacho"]],
                 "photo": "jose_nino-lita_cho.png",
@@ -240,12 +219,12 @@
                 ]
             },
             {
-                "hour": "4:00 PM",
+                "hour": "3:40 PM",
                 "title": "Coffee / Snack Break",
                 "emoji": "2615.svg"
             },
             {
-                "hour": "4:20 PM",
+                "hour": "4:00 PM",
                 "title": "A Practical Introduction to Productionizing NLP Models",
                 "speaker": [["Brendon Villalobos", "kulkarniankita9"]],
                 "photo": "brendon-villalobos.jpg",
@@ -254,7 +233,7 @@
                 ]
             },
             {
-                "hour": "4:55 PM",
+                "hour": "4:35 PM",
                 "title": "Observability and performance analysis with BPF",
                 "speaker": [["David Calavera", "calavera"]],
                 "photo": "david-calavera.jpg",
@@ -263,17 +242,17 @@
                 ]
             },
             {
-                "hour": "5:30 PM",
+                "hour": "5:10 PM",
                 "title": "Closing remarks",
                 "emoji": "1f44b.svg"
             },
             {
-                "hour": "5:40 PM",
+                "hour": "5:20 PM",
                 "title": "End",
                 "emoji": "1f44b.svg"
             },
             {
-                "hour": "5:50 PM",
+                "hour": "5:30 PM",
                 "title": "Bus leaves to closing event / hotel",
                 "emoji": "1f68d.svg"
             }
