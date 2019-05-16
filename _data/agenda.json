@@ -226,7 +226,7 @@
             {
                 "hour": "4:00 PM",
                 "title": "A Practical Introduction to Productionizing NLP Models",
-                "speaker": [["Brendon Villalobos", "kulkarniankita9"]],
+                "speaker": [["Brendon Villalobos", "bkvillalobos"]],
                 "photo": "brendon-villalobos.jpg",
                 "abstract": [
                     "It's exciting to create Deep Learning models that can interpret natural language, but resource-greedy NLP models can bottleneck performance in your app. This talk is a practical introduction to productionizing NLP models from training through deployment, with tips to avoid common pitfalls."
