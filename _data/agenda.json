@@ -91,6 +91,11 @@
             },
             {
                 "hour": "3:25 PM",
+                "title": "Coffee / Snack Break",
+                "emoji": "2615.svg"
+            },
+            {
+                "hour": "3:45 PM",
                 "title": "The Linear Algebra of Deep Learning",
                 "speaker": [["Elizabeth Ramirez", "eramirem"]],
                 "photo": "elizabeth-ramirez.jpg",
@@ -99,17 +104,7 @@
                 ]
             },
             {
-                "hour": "4:00 PM",
-                "title": "Coffee / Snack Break",
-                "emoji": "2615.svg"
-            },
-            {
-                "lightning": true,
-                "hour": "4:15 PM",
-                "title": "Lightning Talk - Social Project"
-            },
-            {
-                "hour": "4:30 PM",
+                "hour": "4:20 PM",
                 "title": "It takes a Village to Raise a Production System: Making on-call human-scale with Observability and Trust",
                 "speaker": [["Chris Sun", "daiyitastic"]],
                 "photo": "chris-sun.png",
@@ -118,17 +113,17 @@
                 ]
             },
             {
-                "hour": "5:05 PM",
+                "hour": "4:55 PM",
                 "title": "Closing remarks",
                 "emoji": "1f44b.svg"
             },
             {
-                "hour": "5:15 PM",
+                "hour": "5:05 PM",
                 "title": "End",
                 "emoji": "1f44b.svg"
             },
             {
-                "hour": "5:25 PM",
+                "hour": "5:15 PM",
                 "title": "Bus leaves to hotel",
                 "emoji": "1f68d.svg"
             }
@@ -206,11 +201,18 @@
             },
             {
                 "hour": "2:45 PM",
+                "title": "Chocó una selva de talento",
+                "speaker": [["Esneyder Amin", "Sneyder_A"], ["Yerlinson Maturana", "yerlinmatu"]],
+                "photo": "esneyder_amin_yerlinson_maturana.png",
+                "abstract": []
+            },
+            {
+                "hour": "3:20 PM",
                 "title": "Ice Breaker",
                 "emoji": "1f4a5.svg"
             },
             {
-                "hour": "3:05 PM",
+                "hour": "3:40 PM",
                 "title": "Deploying hybrid topologies with k8s and Envoy: a look at service discovery",
                 "speaker": [["Jose Nino", "junr03"], ["Lita Cho", "litacho"]],
                 "photo": "jose_nino-lita_cho.png",
@@ -219,12 +221,12 @@
                 ]
             },
             {
-                "hour": "3:40 PM",
+                "hour": "4:15 PM",
                 "title": "Coffee / Snack Break",
                 "emoji": "2615.svg"
             },
             {
-                "hour": "4:00 PM",
+                "hour": "4:35 PM",
                 "title": "A Practical Introduction to Productionizing NLP Models",
                 "speaker": [["Brendon Villalobos", "bkvillalobos"]],
                 "photo": "brendon-villalobos.jpg",
@@ -233,7 +235,7 @@
                 ]
             },
             {
-                "hour": "4:35 PM",
+                "hour": "5:10 PM",
                 "title": "Observability and performance analysis with BPF",
                 "speaker": [["David Calavera", "calavera"]],
                 "photo": "david-calavera.jpg",
@@ -242,17 +244,17 @@
                 ]
             },
             {
-                "hour": "5:10 PM",
+                "hour": "5:45 PM",
                 "title": "Closing remarks",
                 "emoji": "1f44b.svg"
             },
             {
-                "hour": "5:20 PM",
+                "hour": "5:55 PM",
                 "title": "End",
                 "emoji": "1f44b.svg"
             },
             {
-                "hour": "5:30 PM",
+                "hour": "6:05 PM",
                 "title": "Bus leaves to closing event / hotel",
                 "emoji": "1f68d.svg"
             }
