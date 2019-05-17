@@ -217,9 +217,12 @@ section.agenda {
                     align-items: center;
                     p {
                         color: $white;
+                        &.break-abstract {
+                            font-size: 0.8rem;
+                        }
                     }
                     .break-time {
-                        flex-basis: 30%;
+                        flex-basis: 40%;
                         text-align: end;
                     }
                     .break-emoji {
@@ -235,7 +238,7 @@ section.agenda {
                         }
                     }
                     .break-title {
-                        flex-basis: 30%;
+                        flex-basis: 40%;
                     }
                 }
             }

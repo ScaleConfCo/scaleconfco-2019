@@ -70,6 +70,9 @@
                             </div>
                             <div class="break-title">
                                 <p>{{ track.title }}</p>
+                                {% if track.abstract %}
+                                    <p class="break-abstract">{{ track.abstract }}</p>
+                                {% endif %}
                             </div>
                         </li>
                     {% endif %}
