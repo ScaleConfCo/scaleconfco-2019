@@ -257,6 +257,14 @@
                 "hour": "6:05 PM",
                 "title": "Bus leaves to closing event / hotel",
                 "emoji": "1f68d.svg"
+            },
+            {
+                "party": true,
+                "hour": "6:35 PM",
+                "title": "Closing Event",
+                "place": "El Social 2",
+                "address": "Carrera 36 # 10A - 71 - Medellín, Colombia",
+                "notes": "(Free transportation provided outside of venue to closing event)"
             }
         ]
     }
