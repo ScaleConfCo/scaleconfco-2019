@@ -173,6 +173,45 @@ section.agenda {
                             }
                         }
                     }
+                    &.party {
+                        &:before {
+                            content: unset;
+                        }
+                        display: flex;
+                        justify-items: center;
+                        .party-details {
+                            flex-basis: 60%;
+                            background-color: $purple-dark;
+                            border: 2px solid $green;
+                            margin: 0;
+                            padding: 1.5rem 1rem;
+                            text-align: center;
+                            p {
+                                padding: 0;
+                                margin: 0;
+                                &.party-place {
+                                    background-color: $green;
+                                    color: $purple-dark;
+                                    display: inline-block;
+                                    font-size: 1.5rem;
+                                    font-weight: bolder;
+                                    margin: 0 0 0.3rem;
+                                    padding: 0.2rem 2rem;
+                                    transform: rotate(-3deg);
+                                    -moz-transform: rotate(-3deg);
+                                    -webkit-transform: rotate(-3deg);
+                                    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+                                }
+                                &.party-title {
+                                    color: $green;
+                                    font-size: 1.2rem;
+                                }
+                                &.party-notes {
+                                    font-size: 0.9rem;
+                                }
+                            }
+                        }
+                    }
                 }
                 &.break {
                     align-items: center;
@@ -244,6 +283,11 @@ section.agenda {
                         &.active {
                             .track-time {
                                 flex-basis: (25 - ((15 / 2) * 1)) * 1%;
+                            }
+                        }
+                        &.party {
+                            .party-details {
+                                flex-basis: 100%;
                             }
                         }
                     }

@@ -51,6 +51,16 @@
                                 </div>
                             </div>
                         </li>
+                    {% elsif track.party %}
+                        {% comment %} Closing Party {% endcomment %}
+                        <li class="track party">
+                            <div class="party-details">
+                                <p class="party-place">{{ track.place }}</p>
+                                <p class="party-title">{{ track.hour }} - {{ track.title }}</p>
+                                <p class="party-address">{{ track.address }}</p>
+                                <p class="party-notes">{{ track.notes }}</p>
+                            </div>
+                        </li>
                     {% else %}
                         {% comment %} Breaks, transport and anything else {% endcomment %}
                         <li class="break">
